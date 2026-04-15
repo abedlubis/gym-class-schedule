@@ -1,0 +1,648 @@
+{
+  "meta": {
+    "effective_from": "2026-04-01",
+    "timezone": "Asia/Jakarta",
+    "locations": [
+      "Setiabudi One",
+      "Sarana Square",
+      "Cikini"
+    ],
+    "notes": [
+      "datetime uses the first matching week of April 2026",
+      "all classes are assumed to recur weekly unless schedule changes"
+    ]
+  },
+  "classes": [
+    {
+      "id": "setiabudi-mon-0700-hatha-yoga-ilanda",
+      "location": "Setiabudi One",
+      "datetime": "2026-04-06T07:00:00+07:00",
+      "class_name": "Hatha Yoga",
+      "instructor": ["Ilanda"],
+      "category": "yoga",
+      "tags": ["mind-body", "flexibility", "mobility", "low-impact"]
+    },
+    {
+      "id": "setiabudi-mon-1810-salsation-patty",
+      "location": "Setiabudi One",
+      "datetime": "2026-04-06T18:10:00+07:00",
+      "class_name": "Salsation",
+      "instructor": ["Patty"],
+      "category": "dance",
+      "tags": ["cardio", "dance", "fun", "rhythm"]
+    },
+    {
+      "id": "setiabudi-mon-1910-pound-wulan",
+      "location": "Setiabudi One",
+      "datetime": "2026-04-06T19:10:00+07:00",
+      "class_name": "Pound",
+      "instructor": ["Wulan"],
+      "category": "cardio",
+      "tags": ["rhythm", "full-body", "music", "conditioning"]
+    },
+    {
+      "id": "setiabudi-mon-2010-bodycombat-kevin",
+      "location": "Setiabudi One",
+      "datetime": "2026-04-06T20:10:00+07:00",
+      "class_name": "Bodycombat",
+      "instructor": ["Kevin"],
+      "category": "martial-cardio",
+      "tags": ["cardio", "hiit-style", "combat", "endurance", "LesMills"]
+    },
+    {
+      "id": "setiabudi-tue-1720-gentle-yoga-dhian",
+      "location": "Setiabudi One",
+      "datetime": "2026-04-07T17:20:00+07:00",
+      "class_name": "Gentle Yoga",
+      "instructor": ["Dhian"],
+      "category": "yoga",
+      "tags": ["recovery", "mobility", "stretching", "low-impact"]
+    },
+    {
+      "id": "setiabudi-tue-1820-fun-step-dhian",
+      "location": "Setiabudi One",
+      "datetime": "2026-04-07T18:20:00+07:00",
+      "class_name": "Fun Step",
+      "instructor": ["Dhian"],
+      "category": "cardio",
+      "tags": ["step", "aerobic", "coordination", "fun"]
+    },
+    {
+      "id": "setiabudi-tue-1930-piloxing-julia",
+      "location": "Setiabudi One",
+      "datetime": "2026-04-07T19:30:00+07:00",
+      "class_name": "Piloxing",
+      "instructor": ["Julia"],
+      "category": "hybrid",
+      "tags": ["pilates", "boxing", "cardio", "conditioning"]
+    },
+    {
+      "id": "setiabudi-wed-0700-basic-yoga-ilanda",
+      "location": "Setiabudi One",
+      "datetime": "2026-04-01T07:00:00+07:00",
+      "class_name": "Basic Yoga",
+      "instructor": ["Ilanda"],
+      "category": "yoga",
+      "tags": ["beginner", "mobility", "flexibility", "mind-body"]
+    },
+    {
+      "id": "setiabudi-wed-1700-cardio-boxing-irman-surya",
+      "location": "Setiabudi One",
+      "datetime": "2026-04-01T17:00:00+07:00",
+      "class_name": "Cardio Boxing",
+      "instructor": ["Coach Irman", "Coach Surya"],
+      "category": "martial-cardio",
+      "tags": ["boxing", "cardio", "conditioning", "full-body"]
+    },
+    {
+      "id": "setiabudi-wed-1820-bodypump-hendra",
+      "location": "Setiabudi One",
+      "datetime": "2026-04-01T18:20:00+07:00",
+      "class_name": "Bodypump",
+      "instructor": ["Hendra"],
+      "category": "strength",
+      "tags": ["weights", "barbell", "strength-endurance", "full-body", "LesMills"]
+    },
+    {
+      "id": "setiabudi-wed-1930-zumba-topan",
+      "location": "Setiabudi One",
+      "datetime": "2026-04-01T19:30:00+07:00",
+      "class_name": "Zumba",
+      "instructor": ["Topan"],
+      "category": "dance",
+      "tags": ["dance", "cardio", "fun", "music"]
+    },
+    {
+      "id": "setiabudi-wed-2030-freestyle-dance-randi",
+      "location": "Setiabudi One",
+      "datetime": "2026-04-01T20:30:00+07:00",
+      "class_name": "Freestyle Dance",
+      "instructor": ["Randi"],
+      "category": "dance",
+      "tags": ["dance", "coordination", "music", "cardio"]
+    },
+    {
+      "id": "setiabudi-thu-1720-hatha-yoga-puspa",
+      "location": "Setiabudi One",
+      "datetime": "2026-04-02T17:20:00+07:00",
+      "class_name": "Hatha Yoga",
+      "instructor": ["Puspa"],
+      "category": "yoga",
+      "tags": ["mobility", "flexibility", "mind-body", "low-impact"]
+    },
+    {
+      "id": "setiabudi-thu-1820-kpop-bonny",
+      "location": "Setiabudi One",
+      "datetime": "2026-04-02T18:20:00+07:00",
+      "class_name": "K-Pop",
+      "instructor": ["Bonny"],
+      "category": "dance",
+      "tags": ["dance", "choreo", "music", "fun"]
+    },
+    {
+      "id": "setiabudi-thu-1930-rpm-dimas",
+      "location": "Setiabudi One",
+      "datetime": "2026-04-02T19:30:00+07:00",
+      "class_name": "RPM",
+      "instructor": ["Dimas"],
+      "category": "cycling",
+      "tags": ["indoor-cycling", "cardio", "endurance", "legs"]
+    },
+    {
+      "id": "setiabudi-fri-1700-hiit-fasyal-abi",
+      "location": "Setiabudi One",
+      "datetime": "2026-04-03T17:00:00+07:00",
+      "class_name": "HIIT",
+      "instructor": ["Coach Fasyal", "Coach Abi"],
+      "category": "hiit",
+      "tags": ["high-intensity", "conditioning", "cardio", "full-body"]
+    },
+    {
+      "id": "setiabudi-fri-1820-bodypump-james",
+      "location": "Setiabudi One",
+      "datetime": "2026-04-03T18:20:00+07:00",
+      "class_name": "Bodypump",
+      "instructor": ["James"],
+      "category": "strength",
+      "tags": ["weights", "barbell", "strength-endurance", "full-body", "LesMills"]
+    },
+    {
+      "id": "setiabudi-fri-1930-bodycombat-denis",
+      "location": "Setiabudi One",
+      "datetime": "2026-04-03T19:30:00+07:00",
+      "class_name": "Bodycombat",
+      "instructor": ["Denis"],
+      "category": "martial-cardio",
+      "tags": ["combat", "cardio", "conditioning", "endurance", "LesMills"]
+    },
+    {
+      "id": "setiabudi-fri-2030-zumba-topan",
+      "location": "Setiabudi One",
+      "datetime": "2026-04-03T20:30:00+07:00",
+      "class_name": "Zumba",
+      "instructor": ["Topan"],
+      "category": "dance",
+      "tags": ["dance", "cardio", "music", "fun"]
+    },
+    {
+      "id": "setiabudi-sat-1345-bodypump-raffi",
+      "location": "Setiabudi One",
+      "datetime": "2026-04-04T13:45:00+07:00",
+      "class_name": "Bodypump",
+      "instructor": ["Raffi"],
+      "category": "strength",
+      "tags": ["weights", "barbell", "strength-endurance", "full-body", "LesMills"]
+    },
+    {
+      "id": "setiabudi-sat-1500-pilates-hanif",
+      "location": "Setiabudi One",
+      "datetime": "2026-04-04T15:00:00+07:00",
+      "class_name": "Pilates",
+      "instructor": ["Hanif"],
+      "category": "pilates",
+      "tags": ["core", "mobility", "control", "low-impact"]
+    },
+    {
+      "id": "setiabudi-sat-1600-vinyasa-yoga-hanif",
+      "location": "Setiabudi One",
+      "datetime": "2026-04-04T16:00:00+07:00",
+      "class_name": "Vinyasa Yoga",
+      "instructor": ["Hanif"],
+      "category": "yoga",
+      "tags": ["flow", "mobility", "flexibility", "mind-body"]
+    },
+    {
+      "id": "setiabudi-sun-1700-bootcamp-mory",
+      "location": "Setiabudi One",
+      "datetime": "2026-04-05T17:00:00+07:00",
+      "class_name": "Bootcamp",
+      "instructor": ["Coach Mory"],
+      "category": "hiit",
+      "tags": ["full-body", "conditioning", "strength", "cardio"]
+    },
+
+    {
+      "id": "sarana-tue-0700-bodycombat-reynaldi",
+      "location": "Sarana Square",
+      "datetime": "2026-04-07T07:00:00+07:00",
+      "class_name": "Bodycombat",
+      "instructor": ["Reynaldi"],
+      "category": "martial-cardio",
+      "tags": ["combat", "cardio", "LesMills"]
+    },
+    {
+      "id": "sarana-wed-0700-bodybalance-winda",
+      "location": "Sarana Square",
+      "datetime": "2026-04-01T07:00:00+07:00",
+      "class_name": "Bodybalance",
+      "instructor": ["Winda"],
+      "category": "yoga",
+      "tags": ["mobility", "mind-body", "LesMills"]
+    },
+    {
+      "id": "sarana-fri-0700-bodyjam-ina",
+      "location": "Sarana Square",
+      "datetime": "2026-04-03T07:00:00+07:00",
+      "class_name": "Bodyjam",
+      "instructor": ["Ina"],
+      "category": "dance",
+      "tags": ["dance", "cardio", "LesMills"]
+    },
+    {
+      "id": "sarana-sat-0800-bodyjam-fira",
+      "location": "Sarana Square",
+      "datetime": "2026-04-04T08:00:00+07:00",
+      "class_name": "Bodyjam",
+      "instructor": ["Fira"],
+      "category": "dance",
+      "tags": ["dance", "LesMills"]
+    },
+    {
+      "id": "sarana-sat-0900-bodycombat-cupi",
+      "location": "Sarana Square",
+      "datetime": "2026-04-04T09:00:00+07:00",
+      "class_name": "Bodycombat",
+      "instructor": ["Cupi"],
+      "category": "martial-cardio",
+      "tags": ["combat", "LesMills"]
+    },
+    {
+      "id": "sarana-mon-1815-yoga-aini",
+      "location": "Sarana Square",
+      "datetime": "2026-04-06T18:15:00+07:00",
+      "class_name": "Yoga",
+      "instructor": ["Aini"],
+      "category": "yoga",
+      "tags": ["mobility"]
+    },
+    {
+      "id": "sarana-tue-1815-pilates-reni",
+      "location": "Sarana Square",
+      "datetime": "2026-04-07T18:15:00+07:00",
+      "class_name": "Pilates",
+      "instructor": ["Reni"],
+      "category": "pilates",
+      "tags": ["core"]
+    },
+    {
+      "id": "sarana-wed-1815-circuit-training-novi",
+      "location": "Sarana Square",
+      "datetime": "2026-04-01T18:15:00+07:00",
+      "class_name": "Circuit Training",
+      "instructor": ["Coach Novi"],
+      "category": "hiit",
+      "tags": ["conditioning", "strength"]
+    },
+    {
+      "id": "sarana-thu-1830-muay-thai-sugi",
+      "location": "Sarana Square",
+      "datetime": "2026-04-02T18:30:00+07:00",
+      "class_name": "Muay Thai",
+      "instructor": ["Sugi"],
+      "category": "martial-cardio",
+      "tags": ["combat"]
+    },
+    {
+      "id": "sarana-fri-1830-pilates-mety",
+      "location": "Sarana Square",
+      "datetime": "2026-04-03T18:30:00+07:00",
+      "class_name": "Pilates",
+      "instructor": ["Mety"],
+      "category": "pilates",
+      "tags": ["core"]
+    },
+    {
+      "id": "sarana-mon-1915-zumba-ela",
+      "location": "Sarana Square",
+      "datetime": "2026-04-06T19:15:00+07:00",
+      "class_name": "Zumba",
+      "instructor": ["Ela"],
+      "category": "dance",
+      "tags": ["cardio"]
+    },
+    {
+      "id": "sarana-tue-1915-muay-thai-sugi",
+      "location": "Sarana Square",
+      "datetime": "2026-04-07T19:15:00+07:00",
+      "class_name": "Muay Thai",
+      "instructor": ["Sugi"],
+      "category": "martial-cardio",
+      "tags": ["combat"]
+    },
+    {
+      "id": "sarana-wed-1915-zumba-fathir",
+      "location": "Sarana Square",
+      "datetime": "2026-04-01T19:15:00+07:00",
+      "class_name": "Zumba",
+      "instructor": ["Fathir"],
+      "category": "dance",
+      "tags": ["cardio"]
+    },
+    {
+      "id": "sarana-thu-1930-bodyjam-fira",
+      "location": "Sarana Square",
+      "datetime": "2026-04-02T19:30:00+07:00",
+      "class_name": "Bodyjam",
+      "instructor": ["Fira"],
+      "category": "dance",
+      "tags": ["dance", "LesMills"]
+    },
+    {
+      "id": "sarana-fri-1930-salsation-ezra",
+      "location": "Sarana Square",
+      "datetime": "2026-04-03T19:30:00+07:00",
+      "class_name": "Salsation",
+      "instructor": ["Ezra"],
+      "category": "dance",
+      "tags": ["dance"]
+    },
+    {
+      "id": "sarana-mon-2015-bodycombat-rudi",
+      "location": "Sarana Square",
+      "datetime": "2026-04-06T20:15:00+07:00",
+      "class_name": "Bodycombat",
+      "instructor": ["Rudi"],
+      "category": "martial-cardio",
+      "tags": ["combat", "LesMills"]
+    },
+    {
+      "id": "sarana-tue-2015-kpop-vira-mrdc",
+      "location": "Sarana Square",
+      "datetime": "2026-04-07T20:15:00+07:00",
+      "class_name": "KPOP",
+      "instructor": ["Vira - MRDC"],
+      "category": "dance",
+      "tags": ["dance"]
+    },
+    {
+      "id": "sarana-wed-2015-bodycombat-amalia",
+      "location": "Sarana Square",
+      "datetime": "2026-04-01T20:15:00+07:00",
+      "class_name": "Bodycombat",
+      "instructor": ["Amalia"],
+      "category": "martial-cardio",
+      "tags": ["combat", "LesMills"]
+    },
+
+    {
+      "id": "cikini-sat-1000-vinyasa-yoga-lila",
+      "location": "Cikini",
+      "datetime": "2026-04-04T10:00:00+07:00",
+      "class_name": "Vinyasa Yoga",
+      "instructor": ["Lila"],
+      "category": "yoga",
+      "tags": ["flow", "mobility"]
+    },
+    {
+      "id": "cikini-sat-1630-zumba-topan",
+      "location": "Cikini",
+      "datetime": "2026-04-04T16:30:00+07:00",
+      "class_name": "Zumba",
+      "instructor": ["Topan"],
+      "category": "dance",
+      "tags": ["cardio"]
+    },
+    {
+      "id": "cikini-mon-1815-bodycombat-charles",
+      "location": "Cikini",
+      "datetime": "2026-04-06T18:15:00+07:00",
+      "class_name": "Bodycombat",
+      "instructor": ["Charles"],
+      "category": "martial-cardio",
+      "tags": ["combat", "LesMills"]
+    },
+    {
+      "id": "cikini-tue-1815-pound-isma",
+      "location": "Cikini",
+      "datetime": "2026-04-07T18:15:00+07:00",
+      "class_name": "Pound",
+      "instructor": ["Isma"],
+      "category": "cardio",
+      "tags": ["rhythm"]
+    },
+    {
+      "id": "cikini-thu-1815-af-groove-ongky",
+      "location": "Cikini",
+      "datetime": "2026-04-02T18:15:00+07:00",
+      "class_name": "AF Groove",
+      "instructor": ["Ongky"],
+      "category": "dance",
+      "tags": ["groove", "music"]
+    },
+    {
+      "id": "cikini-fri-1815-bodyjam-fira",
+      "location": "Cikini",
+      "datetime": "2026-04-03T18:15:00+07:00",
+      "class_name": "Bodyjam",
+      "instructor": ["Fira"],
+      "category": "dance",
+      "tags": ["dance", "LesMills"]
+    },
+    {
+      "id": "cikini-mon-1915-urban-dance-ayu",
+      "location": "Cikini",
+      "datetime": "2026-04-06T19:15:00+07:00",
+      "class_name": "Urban Dance",
+      "instructor": ["Ayu"],
+      "category": "dance",
+      "tags": ["dance"]
+    },
+    {
+      "id": "cikini-tue-1915-bodycombat-robby",
+      "location": "Cikini",
+      "datetime": "2026-04-07T19:15:00+07:00",
+      "class_name": "Bodycombat",
+      "instructor": ["Robby"],
+      "category": "martial-cardio",
+      "tags": ["combat", "LesMills"]
+    },
+    {
+      "id": "cikini-wed-1915-kpop-rexa",
+      "location": "Cikini",
+      "datetime": "2026-04-01T19:15:00+07:00",
+      "class_name": "KPOP",
+      "instructor": ["Rexa"],
+      "category": "dance",
+      "tags": ["dance"]
+    },
+    {
+      "id": "cikini-thu-1915-zumba-topan",
+      "location": "Cikini",
+      "datetime": "2026-04-02T19:15:00+07:00",
+      "class_name": "Zumba",
+      "instructor": ["Topan"],
+      "category": "dance",
+      "tags": ["cardio"]
+    },
+    {
+      "id": "cikini-fri-1930-bodycombat-dadi",
+      "location": "Cikini",
+      "datetime": "2026-04-03T19:30:00+07:00",
+      "class_name": "Bodycombat",
+      "instructor": ["Dadi"],
+      "category": "martial-cardio",
+      "tags": ["combat", "LesMills"]
+    },
+    {
+      "id": "cikini-mon-2015-strong-nation-arina",
+      "location": "Cikini",
+      "datetime": "2026-04-06T20:15:00+07:00",
+      "class_name": "Strong Nation",
+      "instructor": ["Arina"],
+      "category": "hiit",
+      "tags": ["strength", "conditioning"]
+    },
+    {
+      "id": "cikini-wed-2015-pilates-metti",
+      "location": "Cikini",
+      "datetime": "2026-04-01T20:15:00+07:00",
+      "class_name": "Pilates",
+      "instructor": ["Metti"],
+      "category": "pilates",
+      "tags": ["core"]
+    },
+    {
+      "id": "cikini-thu-2015-bodybalance-riri",
+      "location": "Cikini",
+      "datetime": "2026-04-02T20:15:00+07:00",
+      "class_name": "Bodybalance",
+      "instructor": ["Riri"],
+      "category": "yoga",
+      "tags": ["mobility", "mind-body", "LesMills"]
+    }
+  ],
+  "filters": {
+    "locations": [
+      "Setiabudi One",
+      "Sarana Square",
+      "Cikini"
+    ],
+    "categories": [
+      "yoga",
+      "dance",
+      "cardio",
+      "martial-cardio",
+      "hybrid",
+      "strength",
+      "cycling",
+      "hiit",
+      "pilates"
+    ],
+    "instructors": [
+      "Ilanda",
+      "Patty",
+      "Wulan",
+      "Kevin",
+      "Dhian",
+      "Julia",
+      "Coach Irman",
+      "Coach Surya",
+      "Hendra",
+      "Topan",
+      "Randi",
+      "Puspa",
+      "Bonny",
+      "Dimas",
+      "Coach Fasyal",
+      "Coach Abi",
+      "James",
+      "Raffi",
+      "Hanif",
+      "Coach Mory",
+      "Denis",
+      "Reynaldi",
+      "Winda",
+      "Ina",
+      "Fira",
+      "Cupi",
+      "Aini",
+      "Reni",
+      "Coach Novi",
+      "Sugi",
+      "Mety",
+      "Ela",
+      "Fathir",
+      "Ezra",
+      "Rudi",
+      "Vira - MRDC",
+      "Amalia",
+      "Lila",
+      "Charles",
+      "Isma",
+      "Ongky",
+      "Ayu",
+      "Robby",
+      "Rexa",
+      "Dadi",
+      "Arina",
+      "Metti",
+      "Riri"
+    ],
+    "class_names": [
+      "Hatha Yoga",
+      "Salsation",
+      "Pound",
+      "Bodycombat",
+      "Gentle Yoga",
+      "Fun Step",
+      "Piloxing",
+      "Basic Yoga",
+      "Cardio Boxing",
+      "Bodypump",
+      "Zumba",
+      "Freestyle Dance",
+      "K-Pop",
+      "RPM",
+      "HIIT",
+      "Pilates",
+      "Vinyasa Yoga",
+      "Bootcamp",
+      "Bodybalance",
+      "Bodyjam",
+      "Yoga",
+      "Circuit Training",
+      "Muay Thai",
+      "KPOP",
+      "AF Groove",
+      "Urban Dance",
+      "Strong Nation"
+    ],
+    "tags": [
+      "LesMills",
+      "mind-body",
+      "flexibility",
+      "mobility",
+      "low-impact",
+      "cardio",
+      "dance",
+      "fun",
+      "rhythm",
+      "full-body",
+      "music",
+      "conditioning",
+      "hiit-style",
+      "combat",
+      "endurance",
+      "recovery",
+      "stretching",
+      "step",
+      "aerobic",
+      "coordination",
+      "pilates",
+      "boxing",
+      "beginner",
+      "weights",
+      "barbell",
+      "strength-endurance",
+      "choreo",
+      "indoor-cycling",
+      "legs",
+      "high-intensity",
+      "core",
+      "control",
+      "flow",
+      "strength",
+      "groove"
+    ]
+  }
+}
