@@ -1,4 +1,4 @@
-import { and, asc, desc, eq, ilike, ne, or, sql, type SQL } from 'drizzle-orm'
+import { and, asc, desc, eq, ilike, inArray, ne, or, sql, type SQL } from 'drizzle-orm'
 import type { PgDatabase } from 'drizzle-orm/pg-core'
 import * as s from '../db/schema.js'
 import { slugify } from '../db/seed/load.js'
@@ -75,6 +75,26 @@ export async function listInstructors(db: Db, p: ListParams) {
   if (p.q) filters.push(ilike(s.instructors.name, `%${p.q}%`))
   if (p.status && p.status !== 'all') {
     filters.push(eq(s.instructors.status, p.status as 'active'))
+  }
+  // Scoped to one club so the picker in SlotForm stays usable instead of a
+  // 477-name wall — instructors teach at a handful of clubs via
+  // instructor_clubs, not globally.
+  if (p.club) {
+    const [club] = await db
+      .select({ id: s.clubs.id })
+      .from(s.clubs)
+      .where(eq(s.clubs.slug, p.club))
+      .limit(1)
+    if (!club) throw new DomainError('Unknown club', 404, 'NOT_FOUND')
+    filters.push(
+      inArray(
+        s.instructors.id,
+        db
+          .select({ id: s.instructorClubs.instructorId })
+          .from(s.instructorClubs)
+          .where(eq(s.instructorClubs.clubId, club.id)),
+      ),
+    )
   }
   const where = filters.length ? and(...filters) : undefined
 

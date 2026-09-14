@@ -4,6 +4,7 @@ import { adminFetch, adminList } from '@/api/admin'
 import { ApiError } from '@/api/client'
 
 type Option = { id: string; name: string }
+type ClubOption = Option & { slug: string }
 type Slot = {
   id: string
   weekday: number
@@ -30,7 +31,7 @@ const DAYS = [
   { value: 0, label: 'Sunday' },
 ]
 
-const clubs = ref<Option[]>([])
+const clubs = ref<ClubOption[]>([])
 const templates = ref<(Option & { defaultDurationMin: number })[]>([])
 const instructors = ref<Option[]>([])
 const error = ref('')
@@ -48,11 +49,36 @@ const form = ref({
   instructor_ids: [] as string[],
 })
 
-adminList<Option>('/admin/clubs', { limit: 100 }).then((r) => (clubs.value = r.data))
+adminList<ClubOption>('/admin/clubs', { limit: 100 }).then((r) => {
+  clubs.value = r.data
+  // The slot/create watcher below may already have set club_id before this
+  // resolves; make sure the instructor list catches up once clubs are known.
+  if (form.value.club_id) loadInstructors(form.value.club_id)
+})
 adminList<Option & { defaultDurationMin: number }>('/admin/class-templates', {
   limit: 100,
 }).then((r) => (templates.value = r.data))
-adminList<Option>('/admin/instructors', { limit: 100 }).then((r) => (instructors.value = r.data))
+
+/**
+ * Instructors teach at a handful of clubs (see instructor_clubs), so the
+ * picker is scoped per club instead of showing all ~477 names. Stale
+ * selections from a previous club are dropped since they wouldn't apply here.
+ */
+async function loadInstructors(clubId: string) {
+  const club = clubs.value.find((c) => c.id === clubId)
+  if (!club) return
+  const r = await adminList<Option>('/admin/instructors', { limit: 100, club: club.slug })
+  instructors.value = r.data
+  const valid = new Set(r.data.map((i) => i.id))
+  form.value.instructor_ids = form.value.instructor_ids.filter((id) => valid.has(id))
+}
+
+watch(
+  () => form.value.club_id,
+  (clubId) => {
+    if (clubId) loadInstructors(clubId)
+  },
+)
 
 watch(
   () => props.slot,
@@ -84,10 +110,6 @@ watch(
   },
   { immediate: true },
 )
-
-// Only instructors already linked to the chosen club, so the list stays usable
-// at 477 names instead of being a wall.
-const clubInstructors = computed(() => instructors.value)
 
 const isTba = computed(() => form.value.instructor_ids.length === 0)
 
@@ -184,7 +206,7 @@ async function save() {
           <legend class="mb-1 text-[13px] font-medium text-ink-muted">Instructors</legend>
           <div class="max-h-44 space-y-1 overflow-y-auto rounded-lg border border-line bg-bg p-2">
             <label
-              v-for="i in clubInstructors"
+              v-for="i in instructors"
               :key="i.id"
               class="flex cursor-pointer items-center gap-2 rounded px-1 py-0.5 text-[14px] hover:bg-surface"
             >
