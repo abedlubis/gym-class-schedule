@@ -27,9 +27,6 @@ export function useUrlFilters(filters: ActiveFilters, extra: { club?: string; we
     const q = route.query
     filters.search = typeof q.q === 'string' ? q.q : ''
     for (const key of LIST_KEYS) filters[key] = asArray(q[key])
-    filters.weekdays = asArray(q.days)
-      .map(Number)
-      .filter((n) => Number.isInteger(n) && n >= 0 && n <= 6)
     filters.timeRange = TIME_RANGES.includes(q.time as TimeRange)
       ? (q.time as TimeRange)
       : 'all'
@@ -43,7 +40,6 @@ export function useUrlFilters(filters: ActiveFilters, extra: { club?: string; we
     for (const key of LIST_KEYS) {
       if (filters[key].length) query[key] = filters[key].join(',')
     }
-    if (filters.weekdays.length) query.days = [...filters.weekdays].sort().join(',')
     if (filters.timeRange !== 'all') query.time = filters.timeRange
     if (extra.club) query.club = extra.club
     if (extra.week) query.week = extra.week

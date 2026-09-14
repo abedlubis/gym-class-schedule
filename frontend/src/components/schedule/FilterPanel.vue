@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import type { ActiveFilters, FilterOptions, TimeRange } from '@/types/schedule'
 import type { ArrayFilterKey } from '@/composables/useScheduleFilters'
-import { weekdayLabel } from '@/utils/schedule'
 
 defineProps<{
   filters: ActiveFilters
@@ -11,7 +10,6 @@ defineProps<{
 
 defineEmits<{
   toggleArray: [key: ArrayFilterKey, value: string]
-  toggleWeekday: [weekday: number]
   setTimeRange: [range: TimeRange]
   reset: []
 }>()
@@ -31,8 +29,6 @@ const TIME_RANGES: { value: TimeRange; label: string }[] = [
   { value: 'evening', label: 'Evening' },
 ]
 
-// 1..6,0 so the strip reads Monday-first like the timeline.
-const WEEKDAYS = [1, 2, 3, 4, 5, 6, 0]
 </script>
 
 <template>
@@ -61,26 +57,6 @@ const WEEKDAYS = [1, 2, 3, 4, 5, 6, 0]
       />
     </div>
 
-    <fieldset>
-      <legend class="mb-1.5 text-[12px] font-medium text-ink-muted">Day</legend>
-      <div class="flex gap-1">
-        <button
-          v-for="d in WEEKDAYS"
-          :key="d"
-          type="button"
-          :aria-pressed="filters.weekdays.includes(d)"
-          class="h-8 flex-1 rounded-md text-[12px] font-medium transition"
-          :class="
-            filters.weekdays.includes(d)
-              ? 'bg-primary text-ink'
-              : 'bg-surface text-ink-muted hover:text-ink'
-          "
-          @click="$emit('toggleWeekday', d)"
-        >
-          {{ weekdayLabel(d).charAt(0) }}
-        </button>
-      </div>
-    </fieldset>
 
     <fieldset>
       <legend class="mb-1.5 text-[12px] font-medium text-ink-muted">Time</legend>

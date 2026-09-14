@@ -1,4 +1,4 @@
-import type { ClassOccurrence, DayGroup, TimeRange } from '@/types/schedule'
+import type { ClassOccurrence, TimeRange } from '@/types/schedule'
 
 const DAY_LONG = [
   'Sunday',
@@ -66,26 +66,74 @@ export function buildSearchBlob(cls: ClassOccurrence): string {
     .toLowerCase()
 }
 
-export function groupClassesByDay(classes: ClassOccurrence[]): DayGroup[] {
-  const byDate = new Map<string, ClassOccurrence[]>()
-  for (const cls of classes) {
-    if (!byDate.has(cls.date)) byDate.set(cls.date, [])
-    byDate.get(cls.date)!.push(cls)
-  }
-  return [...byDate.entries()]
-    .sort(([a], [b]) => a.localeCompare(b))
-    .map(([date, items]) => ({
-      date,
-      weekday: weekdayOf(date),
-      label: formatDayLabel(date),
-      shortLabel: formatShortDay(date),
-      classes: items.sort((a, b) => a.start_time.localeCompare(b.start_time)),
-    }))
-}
 
 export function formatInstructors(cls: ClassOccurrence): string {
   if (cls.instructor_status === 'tba' || cls.instructors.length === 0) {
     return 'Instructor TBA'
   }
   return cls.instructors.join(' & ')
+}
+
+/**
+ * Today's date as YYYY-MM-DD in a given IANA timezone.
+ *
+ * en-CA formats as YYYY-MM-DD and is stable. Computed in the club's timezone,
+ * not the browser's: a member in Denpasar (WITA) is an hour ahead of Jakarta
+ * and late at night that is a different calendar day.
+ */
+export function todayIn(timezone = 'Asia/Jakarta', now: Date = new Date()): string {
+  return new Intl.DateTimeFormat('en-CA', {
+    timeZone: timezone,
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).format(now)
+}
+
+export function isToday(date: string, timezone = 'Asia/Jakarta'): boolean {
+  return date === todayIn(timezone)
+}
+
+/** "Today", "Tomorrow", or the weekday name. */
+export function relativeDayLabel(date: string, timezone = 'Asia/Jakarta'): string {
+  const today = todayIn(timezone)
+  if (date === today) return 'Today'
+  const d = new Date(`${today}T00:00:00Z`)
+  d.setUTCDate(d.getUTCDate() + 1)
+  if (date === d.toISOString().slice(0, 10)) return 'Tomorrow'
+  return formatDayLabel(date).split(',')[0] ?? ''
+}
+
+/**
+ * Groups one day's classes by start time.
+ *
+ * This is the shape the all-studios view needs: at 07:00 on a Monday there may
+ * be a dozen classes across a dozen branches, and one card each is unreadable.
+ * One row per time, every class on it.
+ */
+export interface TimeGroup {
+  time: string
+  classes: ClassOccurrence[]
+}
+
+export function groupClassesByTime(classes: ClassOccurrence[]): TimeGroup[] {
+  const byTime = new Map<string, ClassOccurrence[]>()
+  for (const cls of classes) {
+    if (!byTime.has(cls.start_time)) byTime.set(cls.start_time, [])
+    byTime.get(cls.start_time)!.push(cls)
+  }
+  return [...byTime.entries()]
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([time, items]) => ({
+      time,
+      classes: items.sort(
+        (a, b) =>
+          a.club.name.localeCompare(b.club.name) || a.class_name.localeCompare(b.class_name),
+      ),
+    }))
+}
+
+/** Drops the "AF " prefix — every branch has it, so it is noise in a chip. */
+export function shortClubName(name: string): string {
+  return name.replace(/^AF\s+/i, '')
 }

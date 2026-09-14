@@ -84,15 +84,6 @@ export interface ActiveFilters {
   categories: string[]
   instructors: string[]
   programmes: string[]
-  /** 0 = Sunday … 6 = Saturday */
-  weekdays: number[]
   timeRange: TimeRange
 }
 
-export interface DayGroup {
-  date: string
-  weekday: number
-  label: string
-  shortLabel: string
-  classes: ClassOccurrence[]
-}

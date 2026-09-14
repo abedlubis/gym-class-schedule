@@ -144,3 +144,63 @@ The second rewrite is the SPA fallback. Without it, opening `/studios` or
 - Local: `VITE_API_BASE_URL=http://localhost:8787/api/v1`
 - Production: leave it unset. The default is the relative `/api/v1`, which the
   rewrite forwards.
+
+## Feedback round — what changed
+
+**Opens on today.** The page reads the current date and shows that day. There is
+no "all days" view: 176 classes run on a Monday across 57 studios, and a week of
+that is not something anyone can read. The day strip marks today with a dot and a
+"Back to today" button appears once you navigate away. The chosen day is kept in
+the URL, so a shared link opens on the same day.
+
+**Two list shapes for two questions.**
+
+- *A studio is selected* — the detailed list: time rail, class, instructor,
+  duration. This is the "tell me about this class" view.
+- *All studios* — one row per start time with every branch on it as a compact
+  chip: `Pilates · AKR Tower`, `Zumba · Citywalk Sudirman`. Monday 07:00 holds 7
+  classes across 7 branches; a full Monday collapses from **176 cards to 35 time
+  rows**. This is the "what is on at 7am" view.
+
+**Every class opens a modal** with the full detail — instructor, duration,
+studio and area, other times it runs this week, and the provenance block.
+
+**Loading states everywhere.** Skeletons shaped like the content they replace,
+for the schedule, the studio picker and the compact rows. No blank canvas.
+
+## On the UI kit
+
+**PrimeVue, not Vuetify, and in unstyled mode.**
+
+Vuetify is Material Design. Adopting it means adopting Material's shapes,
+elevation and motion, and the AF palette ends up fighting the theme on every
+surface — the brief was to keep the palette. Unstyled PrimeVue takes the
+opposite trade: the behaviour (focus trap, focus restore, `aria-modal`, Escape,
+scroll lock, portal and z-index handling, keyboard navigation in the studio
+picker) with every pixel still coming from the existing Tailwind tokens.
+
+The whole "theme" is the pass-through object in `src/plugins/primevue.ts`. It
+contains only Tailwind classes built from the same tokens as everything else, so
+nothing new entered the palette.
+
+Components used: `Dialog` (class detail), `Select` (studio picker, with filtering
+— it matters at 58 studios), `Skeleton` (loading).
+
+### The cost, measured
+
+| Build | Initial JS (gzipped) |
+|---|---|
+| before, hand-rolled | 19 kB |
+| PrimeVue core + Skeleton, native `<select>` | 45 kB |
+| **current** — core + Skeleton + Select | **69 kB** |
+| `ClassDetail` (Dialog) | 12.6 kB, lazy — loads on first tap |
+
+PrimeVue's core and config account for roughly 26 kB of that before a single
+component is used; `Select` is another 24 kB. The dialog is lazy-loaded because
+it is only needed after a tap.
+
+That is a 3.6x increase on a page people open on mobile data in a gym lobby. It
+buys a searchable studio picker and correct dialog accessibility. If the size
+matters more than the search box, reverting `Select` to a native `<select>` drops
+it back to 45 kB and is a ten-line change — the native picker is a system sheet
+on mobile, which is not a bad experience.

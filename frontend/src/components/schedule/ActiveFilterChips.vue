@@ -2,13 +2,11 @@
 import { computed } from 'vue'
 import type { ActiveFilters } from '@/types/schedule'
 import type { ArrayFilterKey } from '@/composables/useScheduleFilters'
-import { weekdayLabel } from '@/utils/schedule'
 
 const props = defineProps<{ filters: ActiveFilters; hasActiveFilters: boolean }>()
 
 const emit = defineEmits<{
   removeArray: [key: ArrayFilterKey, value: string]
-  removeWeekday: [weekday: number]
   clearSearch: []
   clearTimeRange: []
   clear: []
@@ -26,9 +24,6 @@ const chips = computed<Chip[]>(() => {
     for (const value of f[key]) {
       out.push({ label: value, remove: () => emit('removeArray', key, value) })
     }
-  }
-  for (const d of f.weekdays) {
-    out.push({ label: weekdayLabel(d), remove: () => emit('removeWeekday', d) })
   }
   if (f.timeRange !== 'all') {
     out.push({ label: f.timeRange, remove: () => emit('clearTimeRange') })

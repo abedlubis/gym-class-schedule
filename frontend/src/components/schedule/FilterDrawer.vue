@@ -15,7 +15,6 @@ const props = defineProps<{
 const emit = defineEmits<{
   close: []
   toggleArray: [key: ArrayFilterKey, value: string]
-  toggleWeekday: [weekday: number]
   setTimeRange: [range: TimeRange]
   reset: []
 }>()
@@ -68,7 +67,6 @@ onBeforeUnmount(() => {
           :options="options"
           :has-active-filters="hasActiveFilters"
           @toggle-array="(k, v) => $emit('toggleArray', k, v)"
-          @toggle-weekday="(d) => $emit('toggleWeekday', d)"
           @set-time-range="(r) => $emit('setTimeRange', r)"
           @reset="$emit('reset')"
         />
