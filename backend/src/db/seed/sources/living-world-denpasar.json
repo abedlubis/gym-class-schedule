@@ -1,0 +1,319 @@
+{
+  "_meta": {
+    "classification": "INTERNAL",
+    "source": "Instagram timetable graphic, transcribed from screenshot",
+    "instagram_handle": "anytimefitnessdenpasar",
+    "extracted_at": "2026-09-13",
+    "graphic_title": "Living World Denpasar"
+  },
+  "club": {
+    "slug": "living-world-denpasar",
+    "name": "AF Living World Denpasar",
+    "aliases": []
+  },
+  "schedule": {
+    "effective_from": "2026-09-01",
+    "timezone": "Asia/Makassar",
+    "default_duration_min": 60,
+    "duration_note": "Durations are not printed on AF timetable graphics. Default 60 min, capped where the next class at the same club starts sooner.",
+    "slot_count": 21,
+    "complete": true
+  },
+  "slots": [
+    {
+      "weekday": 2,
+      "start_time": "08:00",
+      "class_name": "Zumba",
+      "programme": "Zumba",
+      "category": "dance",
+      "family": "Zumba",
+      "instructors": [
+        "Gaga"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 3,
+      "start_time": "08:00",
+      "class_name": "Pilates",
+      "programme": null,
+      "category": "pilates",
+      "family": "Pilates",
+      "instructors": [
+        "Kristi"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 4,
+      "start_time": "08:00",
+      "class_name": "Zumba",
+      "programme": "Zumba",
+      "category": "dance",
+      "family": "Zumba",
+      "instructors": [
+        "Gaga"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 1,
+      "start_time": "09:00",
+      "class_name": "Cardio Dance",
+      "programme": null,
+      "category": "dance",
+      "family": "Dance",
+      "instructors": [
+        "Ezra"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 3,
+      "start_time": "09:00",
+      "class_name": "Core Exercise",
+      "programme": null,
+      "category": "strength",
+      "family": "Conditioning",
+      "instructors": [
+        "Ica"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 2,
+      "start_time": "09:10",
+      "class_name": "Bodypump",
+      "programme": "LesMills",
+      "category": "strength",
+      "family": "Bodypump",
+      "instructors": [
+        "Alice"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 4,
+      "start_time": "09:10",
+      "class_name": "Yoga",
+      "programme": null,
+      "category": "yoga",
+      "family": "Yoga",
+      "instructors": [
+        "Berry"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 5,
+      "start_time": "09:10",
+      "class_name": "Bodypump",
+      "programme": "LesMills",
+      "category": "strength",
+      "family": "Bodypump",
+      "instructors": [
+        "Alice"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 1,
+      "start_time": "10:00",
+      "class_name": "Muay Thai",
+      "programme": null,
+      "category": "martial",
+      "family": "Martial Arts",
+      "instructors": [
+        "Yumar"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 3,
+      "start_time": "10:00",
+      "class_name": "Bodycombat",
+      "programme": "LesMills",
+      "category": "martial",
+      "family": "Bodycombat",
+      "instructors": [
+        "Ica"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 2,
+      "start_time": "10:10",
+      "class_name": "Cardio Step",
+      "programme": null,
+      "category": "cardio",
+      "family": "Cardio",
+      "instructors": [
+        "Susy"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 4,
+      "start_time": "10:10",
+      "class_name": "HIIT",
+      "programme": null,
+      "category": "cardio",
+      "family": "Cardio",
+      "instructors": [
+        "Angga"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 5,
+      "start_time": "10:10",
+      "class_name": "HIIT",
+      "programme": null,
+      "category": "cardio",
+      "family": "Cardio",
+      "instructors": [
+        "Arif",
+        "Stevan"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 1,
+      "start_time": "11:00",
+      "class_name": "Circuit Training",
+      "programme": null,
+      "category": "strength",
+      "family": "Conditioning",
+      "instructors": [
+        "Risya"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 6,
+      "start_time": "15:00",
+      "class_name": "Pound",
+      "programme": "POUND",
+      "category": "cardio",
+      "family": "Cardio",
+      "instructors": [
+        "Mega"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 5,
+      "start_time": "17:30",
+      "class_name": "Muay Thai",
+      "programme": null,
+      "category": "martial",
+      "family": "Martial Arts",
+      "instructors": [
+        "Yumar"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 1,
+      "start_time": "19:00",
+      "class_name": "Yoga",
+      "programme": null,
+      "category": "yoga",
+      "family": "Yoga",
+      "instructors": [
+        "Berry"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 2,
+      "start_time": "19:00",
+      "class_name": "Bodycombat",
+      "programme": "LesMills",
+      "category": "martial",
+      "family": "Bodycombat",
+      "instructors": [
+        "Teddy"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 3,
+      "start_time": "19:00",
+      "class_name": "Bodypump",
+      "programme": "LesMills",
+      "category": "strength",
+      "family": "Bodypump",
+      "instructors": [
+        "Bobby"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 4,
+      "start_time": "19:00",
+      "class_name": "Bodycombat",
+      "programme": "LesMills",
+      "category": "martial",
+      "family": "Bodycombat",
+      "instructors": [
+        "Bobby"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 5,
+      "start_time": "19:00",
+      "class_name": "Pilates",
+      "programme": null,
+      "category": "pilates",
+      "family": "Pilates",
+      "instructors": [
+        "Afifah"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "_meta": {
+    "classification": "INTERNAL",
+    "source": "Instagram timetable graphic, transcribed from screenshot",
+    "instagram_handle": "af_tamananggrek",
+    "extracted_at": "2026-09-13",
+    "graphic_title": "Taman Anggrek"
+  },
+  "club": {
+    "slug": "hublife-taman-anggrek",
+    "name": "AF Hublife Taman Anggrek",
+    "aliases": []
+  },
+  "schedule": {
+    "effective_from": "2026-08-01",
+    "timezone": "Asia/Jakarta",
+    "default_duration_min": 60,
+    "duration_note": "Durations are not printed on AF timetable graphics. Default 60 min, automatically capped where the next class at the same club starts sooner. See _duration_source per slot.",
+    "slot_count": 15,
+    "complete": true,
+    "staleness_warning": {
+      "severity": "medium",
+      "detail": "August 2026 timetable; September not yet posted at capture time.",
+      "user_facing": "AF Hublife Taman Anggrek's schedule was last published for August 2026."
+    }
+  },
+  "slots": [
+    {
+      "weekday": 3,
+      "start_time": "08:00",
+      "class_name": "Yoga",
+      "programme": null,
+      "category": "yoga",
+      "family": "Yoga",
+      "instructors": [
+        "Amel"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 4,
+      "start_time": "09:00",
+      "class_name": "Muay Thai",
+      "programme": null,
+      "category": "martial",
+      "family": "Martial Arts",
+      "instructors": [
+        "Vik"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 6,
+      "start_time": "09:00",
+      "class_name": "Flow Yoga",
+      "programme": null,
+      "category": "yoga",
+      "family": "Yoga",
+      "instructors": [
+        "Iman"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 6,
+      "start_time": "10:10",
+      "class_name": "LesMills Dance",
+      "programme": "LesMills",
+      "category": "dance",
+      "family": "Dance",
+      "instructors": [
+        "Iman"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 0,
+      "start_time": "10:30",
+      "class_name": "Bodycombat",
+      "programme": "LesMills",
+      "category": "martial",
+      "family": "Bodycombat",
+      "instructors": [
+        "Max"
+      ],
+      "duration_min": 60,
+      "_note": "printed in the 10:10 row with an in-cell time override of 10.30",
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 3,
+      "start_time": "17:15",
+      "class_name": "Muay Thai",
+      "programme": null,
+      "category": "martial",
+      "family": "Martial Arts",
+      "instructors": [
+        "Vik"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 1,
+      "start_time": "18:30",
+      "class_name": "Salsation",
+      "programme": "Salsation",
+      "category": "dance",
+      "family": "Dance",
+      "instructors": [
+        "Priska"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 2,
+      "start_time": "18:30",
+      "class_name": "Bodycombat",
+      "programme": "LesMills",
+      "category": "martial",
+      "family": "Bodycombat",
+      "instructors": [
+        "Max"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 3,
+      "start_time": "18:30",
+      "class_name": "LesMills Dance",
+      "programme": "LesMills",
+      "category": "dance",
+      "family": "Dance",
+      "instructors": [
+        "Iman"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 4,
+      "start_time": "18:30",
+      "class_name": "Zumba",
+      "programme": "Zumba",
+      "category": "dance",
+      "family": "Zumba",
+      "instructors": [
+        "Ratna"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 5,
+      "start_time": "18:30",
+      "class_name": "Cardio Dance",
+      "programme": null,
+      "category": "dance",
+      "family": "Dance",
+      "instructors": [
+        "Y-Lo"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 1,
+      "start_time": "19:40",
+      "class_name": "K-Pop",
+      "programme": null,
+      "category": "dance",
+      "family": "Dance",
+      "instructors": [
+        "Steven"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 2,
+      "start_time": "19:40",
+      "class_name": "Yoga",
+      "programme": null,
+      "category": "yoga",
+      "family": "Yoga",
+      "instructors": [
+        "Amel"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 4,
+      "start_time": "19:40",
+      "class_name": "Pilates",
+      "programme": null,
+      "category": "pilates",
+      "family": "Pilates",
+      "instructors": [
+        "Ratna"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 5,
+      "start_time": "19:40",
+      "class_name": "Bodypump",
+      "programme": "LesMills",
+      "category": "strength",
+      "family": "Bodypump",
+      "instructors": [
+        "Yohana"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    }
+  ]
+}

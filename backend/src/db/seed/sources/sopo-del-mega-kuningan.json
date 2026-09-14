@@ -1,0 +1,290 @@
+{
+  "_meta": {
+    "classification": "INTERNAL",
+    "source": "Instagram timetable graphic, transcribed from screenshot",
+    "instagram_handle": "anytimefitness_megakuningan",
+    "post_date": "2026-08-31",
+    "extracted_at": "2026-09-12",
+    "graphic_title": "Mega Kuningan"
+  },
+  "club": {
+    "slug": "sopo-del-mega-kuningan",
+    "name": "AF Sopo Del Mega Kuningan",
+    "aliases": []
+  },
+  "schedule": {
+    "effective_from": "2026-09-01",
+    "timezone": "Asia/Jakarta",
+    "default_duration_min": 60,
+    "duration_note": "Durations are not printed on AF timetable graphics. Default 60 min, automatically capped where the next class at the same club starts sooner. See _duration_source per slot.",
+    "slot_count": 20,
+    "complete": true,
+    "note": "Graphic has no Sunday column at all.",
+    "instructor_tba_count": 1,
+    "instructor_tba_note": "Some cells print no instructor, or a placeholder such as 'Coach', 'PT Team' or 'ALL PT'. This is a real state — the studio has not settled who teaches yet — not a transcription gap. Stored as instructor_status: tba."
+  },
+  "slots": [
+    {
+      "weekday": 2,
+      "start_time": "07:00",
+      "class_name": "Bodypump",
+      "programme": "LesMills",
+      "category": "strength",
+      "instructors": [
+        "Edwin"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 3,
+      "start_time": "07:00",
+      "class_name": "Bodycombat",
+      "programme": "LesMills",
+      "category": "martial",
+      "instructors": [
+        "Christine"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 4,
+      "start_time": "07:00",
+      "class_name": "Power Yoga",
+      "programme": null,
+      "category": "yoga",
+      "instructors": [
+        "Herdy"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed",
+      "family": "Yoga"
+    },
+    {
+      "weekday": 5,
+      "start_time": "07:00",
+      "class_name": "Gentle Yoga",
+      "programme": null,
+      "category": "yoga",
+      "instructors": [
+        "Siska"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed",
+      "family": "Yoga"
+    },
+    {
+      "weekday": 6,
+      "start_time": "09:00",
+      "class_name": "Bodycombat",
+      "programme": "LesMills",
+      "category": "martial",
+      "instructors": [
+        "Tom"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 6,
+      "start_time": "10:15",
+      "class_name": "Bodypump",
+      "programme": "LesMills",
+      "category": "strength",
+      "instructors": [
+        "David"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 2,
+      "start_time": "12:15",
+      "class_name": "Flow Yoga",
+      "programme": null,
+      "category": "yoga",
+      "instructors": [
+        "Herdy"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 2,
+      "start_time": "18:00",
+      "class_name": "TRX",
+      "programme": null,
+      "category": "strength",
+      "instructors": [
+        "Dion"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 3,
+      "start_time": "18:00",
+      "class_name": "Fitball Core",
+      "programme": null,
+      "category": "strength",
+      "instructors": [
+        "Herdy"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 4,
+      "start_time": "18:00",
+      "class_name": "TRX",
+      "programme": null,
+      "category": "strength",
+      "instructors": [
+        "Dion"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 5,
+      "start_time": "18:00",
+      "class_name": "Boxing",
+      "programme": null,
+      "category": "martial",
+      "instructors": [],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "tba",
+      "instructor_note": "instructor cell reads 'Personal Trainer' — a placeholder, not a name"
+    },
+    {
+      "weekday": 1,
+      "start_time": "19:00",
+      "class_name": "Zumba",
+      "programme": "Zumba",
+      "category": "dance",
+      "instructors": [
+        "Asih"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 2,
+      "start_time": "19:00",
+      "class_name": "Hatha Yoga",
+      "programme": null,
+      "category": "yoga",
+      "instructors": [
+        "Herdy"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 3,
+      "start_time": "19:00",
+      "class_name": "Power Yoga",
+      "programme": null,
+      "category": "yoga",
+      "instructors": [
+        "Herdy"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed",
+      "family": "Yoga"
+    },
+    {
+      "weekday": 4,
+      "start_time": "19:00",
+      "class_name": "Bodycombat",
+      "programme": "LesMills",
+      "category": "martial",
+      "instructors": [
+        "Gerry"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 5,
+      "start_time": "19:00",
+      "class_name": "Bodypump",
+      "programme": "LesMills",
+      "category": "strength",
+      "instructors": [
+        "Edwin"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 1,
+      "start_time": "20:00",
+      "class_name": "Bodycombat",
+      "programme": "LesMills",
+      "category": "martial",
+      "instructors": [
+        "Tom"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 2,
+      "start_time": "20:00",
+      "class_name": "Bodycombat",
+      "programme": "LesMills",
+      "category": "martial",
+      "instructors": [
+        "Didi"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 3,
+      "start_time": "20:00",
+      "class_name": "Modern Dance",
+      "programme": null,
+      "category": "dance",
+      "instructors": [
+        "Andita"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 4,
+      "start_time": "20:00",
+      "class_name": "Bodypump",
+      "programme": "LesMills",
+      "category": "strength",
+      "instructors": [
+        "David"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    }
+  ]
+}

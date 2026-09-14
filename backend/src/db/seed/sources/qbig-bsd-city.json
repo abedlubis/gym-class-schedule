@@ -1,0 +1,334 @@
+{
+  "_meta": {
+    "classification": "INTERNAL",
+    "source": "Instagram timetable graphic, transcribed from screenshot",
+    "instagram_handle": "anytimefitness_qbig",
+    "extracted_at": "2026-09-13",
+    "graphic_title": "QBig BSD"
+  },
+  "club": {
+    "slug": "qbig-bsd-city",
+    "name": "AF QBig BSD City",
+    "aliases": []
+  },
+  "schedule": {
+    "effective_from": "2026-09-01",
+    "timezone": "Asia/Jakarta",
+    "default_duration_min": 60,
+    "duration_note": "Durations are not printed on AF timetable graphics. Default 60 min, automatically capped where the next class at the same club starts sooner. See _duration_source per slot.",
+    "slot_count": 22,
+    "complete": true
+  },
+  "slots": [
+    {
+      "weekday": 3,
+      "start_time": "08:00",
+      "class_name": "Flow Yoga",
+      "programme": null,
+      "category": "yoga",
+      "family": "Yoga",
+      "instructors": [
+        "Ervina"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 5,
+      "start_time": "08:00",
+      "class_name": "Bodypump",
+      "programme": "LesMills",
+      "category": "strength",
+      "family": "Bodypump",
+      "instructors": [
+        "Agatha"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 0,
+      "start_time": "08:00",
+      "class_name": "K-Pop",
+      "programme": null,
+      "category": "dance",
+      "family": "Dance",
+      "instructors": [
+        "Dwi"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 2,
+      "start_time": "08:30",
+      "class_name": "Pilates",
+      "programme": null,
+      "category": "pilates",
+      "family": "Pilates",
+      "instructors": [
+        "Theresia"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 6,
+      "start_time": "08:30",
+      "class_name": "Flow Yoga",
+      "programme": null,
+      "category": "yoga",
+      "family": "Yoga",
+      "instructors": [
+        "Ervina"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 5,
+      "start_time": "09:10",
+      "class_name": "Booty Class",
+      "programme": null,
+      "category": "strength",
+      "family": "Conditioning",
+      "instructors": [
+        "Finy"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 0,
+      "start_time": "09:10",
+      "class_name": "Cardio Dance",
+      "programme": null,
+      "category": "dance",
+      "family": "Dance",
+      "instructors": [
+        "Regina"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 6,
+      "start_time": "10:10",
+      "class_name": "Bodypump",
+      "programme": "LesMills",
+      "category": "strength",
+      "family": "Bodypump",
+      "instructors": [
+        "Ican"
+      ],
+      "duration_min": 50,
+      "instructor_status": "confirmed",
+      "_duration_source": "capped at 50 min — next class at this club starts then"
+    },
+    {
+      "weekday": 0,
+      "start_time": "10:10",
+      "class_name": "Boxing",
+      "programme": null,
+      "category": "martial",
+      "family": "Martial Arts",
+      "instructors": [
+        "Dandy",
+        "Agung"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 6,
+      "start_time": "11:00",
+      "class_name": "Muay Thai",
+      "programme": null,
+      "category": "martial",
+      "family": "Martial Arts",
+      "instructors": [
+        "Afit",
+        "Fadel"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 2,
+      "start_time": "18:00",
+      "class_name": "Pound",
+      "programme": "POUND",
+      "category": "cardio",
+      "family": "Cardio",
+      "instructors": [
+        "Irma"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 3,
+      "start_time": "18:00",
+      "class_name": "Zumba",
+      "programme": "Zumba",
+      "category": "dance",
+      "family": "Zumba",
+      "instructors": [
+        "Regina"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 1,
+      "start_time": "18:15",
+      "class_name": "Yogalates",
+      "programme": null,
+      "category": "pilates",
+      "family": "Pilates",
+      "instructors": [
+        "Imelda"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 4,
+      "start_time": "18:15",
+      "class_name": "Fun Step",
+      "programme": null,
+      "category": "cardio",
+      "family": "Cardio",
+      "instructors": [
+        "Oka"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 5,
+      "start_time": "18:30",
+      "class_name": "Bodycombat",
+      "programme": "LesMills",
+      "category": "martial",
+      "family": "Bodycombat",
+      "instructors": [
+        "Agnes"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 3,
+      "start_time": "19:00",
+      "class_name": "Pilates",
+      "programme": null,
+      "category": "pilates",
+      "family": "Pilates",
+      "instructors": [
+        "Theresia"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 2,
+      "start_time": "19:10",
+      "class_name": "Bodycombat",
+      "programme": "LesMills",
+      "category": "martial",
+      "family": "Bodycombat",
+      "instructors": [
+        "Japra"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 1,
+      "start_time": "19:30",
+      "class_name": "Bodypump",
+      "programme": "LesMills",
+      "category": "strength",
+      "family": "Bodypump",
+      "instructors": [
+        "Ican"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 4,
+      "start_time": "19:30",
+      "class_name": "Vinyasa Yoga",
+      "programme": null,
+      "category": "yoga",
+      "family": "Yoga",
+      "instructors": [
+        "Tya"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 2,
+      "start_time": "20:10",
+      "class_name": "Core Motion",
+      "programme": null,
+      "category": "strength",
+      "family": "Conditioning",
+      "instructors": [
+        "Ican"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 3,
+      "start_time": "20:10",
+      "class_name": "Bodypump",
+      "programme": "LesMills",
+      "category": "strength",
+      "family": "Bodypump",
+      "instructors": [
+        "Agatha"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 5,
+      "start_time": "20:10",
+      "class_name": "Mix Dance",
+      "programme": null,
+      "category": "dance",
+      "family": "Dance",
+      "instructors": [
+        "Ican"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    }
+  ]
+}

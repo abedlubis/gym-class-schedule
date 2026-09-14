@@ -1,0 +1,292 @@
+{
+  "_meta": {
+    "classification": "INTERNAL",
+    "source": "Instagram timetable graphic, transcribed from screenshot",
+    "instagram_handle": "af_lippokeboenraya",
+    "extracted_at": "2026-09-13",
+    "graphic_title": "Lippo Keboen Raya Bogor"
+  },
+  "club": {
+    "slug": "lippo-plaza-keboen-raya",
+    "name": "AF Lippo Plaza Keboen Raya",
+    "aliases": [
+      "Lippo Keboen Raya Bogor"
+    ]
+  },
+  "schedule": {
+    "effective_from": "2026-09-01",
+    "timezone": "Asia/Jakarta",
+    "default_duration_min": 60,
+    "duration_note": "Default 60 min, capped where the next class at the same club starts sooner. See _duration_source per slot.",
+    "slot_count": 19,
+    "complete": true
+  },
+  "slots": [
+    {
+      "weekday": 1,
+      "start_time": "08:00",
+      "class_name": "Cardio Dance",
+      "programme": null,
+      "category": "dance",
+      "family": "Dance",
+      "instructors": [
+        "Erna"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 2,
+      "start_time": "08:00",
+      "class_name": "Bodypump",
+      "programme": "LesMills",
+      "category": "strength",
+      "family": "Bodypump",
+      "instructors": [
+        "Femmy"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 3,
+      "start_time": "08:00",
+      "class_name": "Aerobic",
+      "programme": null,
+      "category": "cardio",
+      "family": "Cardio",
+      "instructors": [
+        "Lita"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 4,
+      "start_time": "08:00",
+      "class_name": "K-Pop",
+      "programme": null,
+      "category": "dance",
+      "family": "Dance",
+      "instructors": [
+        "Handa"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 5,
+      "start_time": "08:00",
+      "class_name": "Bodypump",
+      "programme": "LesMills",
+      "category": "strength",
+      "family": "Bodypump",
+      "instructors": [
+        "David"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 0,
+      "start_time": "08:00",
+      "class_name": "Hatha Yoga",
+      "programme": null,
+      "category": "yoga",
+      "family": "Yoga",
+      "instructors": [
+        "Desy"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 2,
+      "start_time": "09:00",
+      "class_name": "Pilates",
+      "programme": null,
+      "category": "pilates",
+      "family": "Pilates",
+      "instructors": [
+        "Shinta"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 5,
+      "start_time": "09:00",
+      "class_name": "Belly Dance",
+      "programme": null,
+      "category": "dance",
+      "family": "Dance",
+      "instructors": [
+        "Nana"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 6,
+      "start_time": "09:00",
+      "class_name": "Body Language",
+      "programme": null,
+      "category": "dance",
+      "family": "Dance",
+      "instructors": [
+        "Lita"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 0,
+      "start_time": "09:00",
+      "class_name": "Strong Nation",
+      "programme": "STRONG Nation",
+      "category": "cardio",
+      "family": "Cardio",
+      "instructors": [
+        "Handa"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 6,
+      "start_time": "10:00",
+      "class_name": "Pound",
+      "programme": "POUND",
+      "category": "cardio",
+      "family": "Cardio",
+      "instructors": [
+        "Namira"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 0,
+      "start_time": "10:00",
+      "class_name": "Zumba",
+      "programme": "Zumba",
+      "category": "dance",
+      "family": "Zumba",
+      "instructors": [
+        "Voni"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 4,
+      "start_time": "18:00",
+      "class_name": "Pound",
+      "programme": "POUND",
+      "category": "cardio",
+      "family": "Cardio",
+      "instructors": [
+        "Novi"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 1,
+      "start_time": "18:30",
+      "class_name": "Basic Yoga",
+      "programme": null,
+      "category": "yoga",
+      "family": "Yoga",
+      "instructors": [
+        "Desy"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 2,
+      "start_time": "18:30",
+      "class_name": "RPM",
+      "programme": "LesMills",
+      "category": "cycling",
+      "family": "RPM",
+      "instructors": [
+        "David"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 3,
+      "start_time": "19:00",
+      "class_name": "Cardio Dance",
+      "programme": null,
+      "category": "dance",
+      "family": "Dance",
+      "instructors": [
+        "Erna"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 5,
+      "start_time": "19:00",
+      "class_name": "Pilates",
+      "programme": null,
+      "category": "pilates",
+      "family": "Pilates",
+      "instructors": [
+        "Shinta"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 2,
+      "start_time": "19:30",
+      "class_name": "Zumba",
+      "programme": "Zumba",
+      "category": "dance",
+      "family": "Zumba",
+      "instructors": [
+        "Irawan"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 4,
+      "start_time": "19:30",
+      "class_name": "Zumba",
+      "programme": "Zumba",
+      "category": "dance",
+      "family": "Zumba",
+      "instructors": [
+        "Voni"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "_meta": {
+    "classification": "INTERNAL",
+    "source": "Instagram timetable graphic (video post), transcribed from full-frame capture",
+    "instagram_handle": "anytimefitness_bintarojunction",
+    "post_date": "2026-06-03",
+    "extracted_at": "2026-09-12",
+    "graphic_title": "Bintaro Junction"
+  },
+  "club": {
+    "slug": "bintaro-junction",
+    "name": "AF Bintaro Junction",
+    "aliases": []
+  },
+  "schedule": {
+    "effective_from": "2026-06-01",
+    "timezone": "Asia/Jakarta",
+    "default_duration_min": 60,
+    "duration_note": "Durations are not printed on AF timetable graphics. Default 60 min, automatically capped where the next class at the same club starts sooner. See _duration_source per slot.",
+    "slot_count": 18,
+    "complete": true,
+    "transcription_confidence": "high except one slot, see _review",
+    "staleness_warning": {
+      "severity": "high",
+      "detail": "Graphic is effective June 2026 and was posted 2026-06-03. Every other transcribed club published a September 2026 timetable. This data is roughly three months old.",
+      "recommendation": "Do NOT publish to the public site until a current timetable is found or the club confirms June is still in force.",
+      "user_facing": "Bintaro Junction's schedule was last published in June 2026 and may be out of date."
+    },
+    "club_note": "Graphic states: for Muay Thai, bring your own gloves.",
+    "empty_rows": [
+      "18:15"
+    ]
+  },
+  "slots": [
+    {
+      "weekday": 1,
+      "start_time": "08:30",
+      "class_name": "Zumba",
+      "programme": "Zumba",
+      "category": "dance",
+      "instructors": [
+        "Yuli"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 2,
+      "start_time": "08:30",
+      "class_name": "Freestyle Dance",
+      "programme": null,
+      "category": "dance",
+      "instructors": [
+        "Rafli MDRC"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed",
+      "family": "Dance"
+    },
+    {
+      "weekday": 3,
+      "start_time": "08:30",
+      "class_name": "Bodypump",
+      "programme": "LesMills",
+      "category": "strength",
+      "instructors": [
+        "Wanda"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 4,
+      "start_time": "08:30",
+      "class_name": "Bodycombat",
+      "programme": "LesMills",
+      "category": "martial",
+      "instructors": [
+        "ILO"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 6,
+      "start_time": "08:30",
+      "class_name": "Yoga",
+      "programme": null,
+      "category": "yoga",
+      "instructors": [
+        "Handry"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed",
+      "family": "Yoga"
+    },
+    {
+      "weekday": 0,
+      "start_time": "09:00",
+      "class_name": "Yoga",
+      "programme": null,
+      "category": "yoga",
+      "instructors": [
+        "Nina"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed",
+      "family": "Yoga"
+    },
+    {
+      "weekday": 5,
+      "start_time": "10:00",
+      "class_name": "Cardio Dance",
+      "programme": null,
+      "category": "dance",
+      "instructors": [
+        "Iman"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 6,
+      "start_time": "10:00",
+      "class_name": "Bodycombat",
+      "programme": "LesMills",
+      "category": "martial",
+      "instructors": [
+        "Wulan"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 6,
+      "start_time": "11:15",
+      "class_name": "Freestyle Dance",
+      "programme": null,
+      "category": "dance",
+      "instructors": [
+        "Rama"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed",
+      "family": "Dance"
+    },
+    {
+      "weekday": 0,
+      "start_time": "16:00",
+      "class_name": "Muay Thai",
+      "programme": null,
+      "category": "martial",
+      "instructors": [
+        "Adi"
+      ],
+      "duration_min": 60,
+      "_review": "Cell sits between the 11:15 and 16:00 rows. Placed at 16:00 on vertical position. MEDIUM confidence.",
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed",
+      "family": "Martial Arts"
+    },
+    {
+      "weekday": 0,
+      "start_time": "17:00",
+      "class_name": "Dancehall",
+      "programme": null,
+      "category": "dance",
+      "instructors": [
+        "Randy"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed",
+      "family": "Dance"
+    },
+    {
+      "weekday": 1,
+      "start_time": "18:30",
+      "class_name": "Bodypump",
+      "programme": "LesMills",
+      "category": "strength",
+      "instructors": [
+        "ILO"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 3,
+      "start_time": "18:30",
+      "class_name": "K-Pop",
+      "programme": null,
+      "category": "dance",
+      "instructors": [
+        "Nadhim MRDC"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 2,
+      "start_time": "19:00",
+      "class_name": "Zumba",
+      "programme": "Zumba",
+      "category": "dance",
+      "instructors": [
+        "Hanz"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 4,
+      "start_time": "19:00",
+      "class_name": "Bodypump",
+      "programme": "LesMills",
+      "category": "strength",
+      "instructors": [
+        "Dony"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 5,
+      "start_time": "19:00",
+      "class_name": "Yoga",
+      "programme": null,
+      "category": "yoga",
+      "instructors": [
+        "Nina"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed",
+      "family": "Yoga"
+    },
+    {
+      "weekday": 1,
+      "start_time": "19:30",
+      "class_name": "Bodycombat",
+      "programme": "LesMills",
+      "category": "martial",
+      "instructors": [
+        "ILO"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 3,
+      "start_time": "20:00",
+      "class_name": "Muay Thai",
+      "programme": null,
+      "category": "martial",
+      "instructors": [
+        "Adi"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed",
+      "family": "Martial Arts"
+    }
+  ],
+  "_review_queue": [
+    "STALENESS: June 2026 timetable. Flagged, excluded from publish by default.",
+    "Sunday Muay Thai placement between the 11:15 and 16:00 rows — medium confidence, verify.",
+    "Instructor suffixes 'Rafli MDRC' and 'Nadhim MRDC' look like the same crew name spelled two ways in the source. Decide whether the suffix is part of the instructor name or a separate affiliation.",
+    "CONFIRMED: 'ILO' is the instructor's name, kept as-is."
+  ]
+}

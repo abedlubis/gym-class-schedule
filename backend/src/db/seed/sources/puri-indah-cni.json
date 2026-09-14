@@ -1,0 +1,277 @@
+{
+  "_meta": {
+    "classification": "INTERNAL",
+    "source": "Instagram timetable graphic, transcribed from screenshot",
+    "instagram_handle": "af.puriindah",
+    "extracted_at": "2026-09-13",
+    "graphic_title": "Puri Indah CNI"
+  },
+  "club": {
+    "slug": "puri-indah-cni",
+    "name": "AF Puri Indah CNI",
+    "aliases": []
+  },
+  "schedule": {
+    "effective_from": "2026-09-01",
+    "timezone": "Asia/Jakarta",
+    "default_duration_min": 60,
+    "duration_note": "Default 60 min, capped where the next class at the same club starts sooner. See _duration_source per slot.",
+    "slot_count": 18,
+    "complete": true,
+    "note": "Graphic has Monday-Saturday columns only, and is the first club to print explicit time ranges — every block is exactly 60 minutes, which confirms the 60-minute default used elsewhere."
+  },
+  "slots": [
+    {
+      "weekday": 1,
+      "start_time": "08:30",
+      "class_name": "Pilates",
+      "programme": null,
+      "category": "pilates",
+      "family": "Pilates",
+      "instructors": [
+        "Iman"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "printed on the graphic as a time range"
+    },
+    {
+      "weekday": 2,
+      "start_time": "08:30",
+      "class_name": "Pound",
+      "programme": "POUND",
+      "category": "cardio",
+      "family": "Cardio",
+      "instructors": [
+        "Michelle"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "printed on the graphic as a time range"
+    },
+    {
+      "weekday": 3,
+      "start_time": "08:30",
+      "class_name": "Zumba",
+      "programme": "Zumba",
+      "category": "dance",
+      "family": "Zumba",
+      "instructors": [
+        "Iza"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "printed on the graphic as a time range"
+    },
+    {
+      "weekday": 4,
+      "start_time": "08:30",
+      "class_name": "Line Dance",
+      "programme": null,
+      "category": "dance",
+      "family": "Dance",
+      "instructors": [
+        "Clara"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "printed on the graphic as a time range"
+    },
+    {
+      "weekday": 5,
+      "start_time": "08:30",
+      "class_name": "Zumba",
+      "programme": "Zumba",
+      "category": "dance",
+      "family": "Zumba",
+      "instructors": [
+        "Shinta"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "printed on the graphic as a time range"
+    },
+    {
+      "weekday": 6,
+      "start_time": "08:30",
+      "class_name": "Line Dance",
+      "programme": null,
+      "category": "dance",
+      "family": "Dance",
+      "instructors": [
+        "Agham"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "printed on the graphic as a time range"
+    },
+    {
+      "weekday": 1,
+      "start_time": "09:40",
+      "class_name": "Cardio Dance",
+      "programme": null,
+      "category": "dance",
+      "family": "Dance",
+      "instructors": [
+        "Iza"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "printed on the graphic as a time range"
+    },
+    {
+      "weekday": 2,
+      "start_time": "09:40",
+      "class_name": "Pilates",
+      "programme": null,
+      "category": "pilates",
+      "family": "Pilates",
+      "instructors": [
+        "Rayhan"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "printed on the graphic as a time range"
+    },
+    {
+      "weekday": 3,
+      "start_time": "09:40",
+      "class_name": "Bolly X",
+      "programme": null,
+      "category": "dance",
+      "family": "Dance",
+      "instructors": [
+        "Ety"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "printed on the graphic as a time range"
+    },
+    {
+      "weekday": 4,
+      "start_time": "09:40",
+      "class_name": "Core Exercise",
+      "programme": null,
+      "category": "strength",
+      "family": "Conditioning",
+      "instructors": [
+        "Bagas"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "printed on the graphic as a time range"
+    },
+    {
+      "weekday": 5,
+      "start_time": "09:40",
+      "class_name": "Yoga",
+      "programme": null,
+      "category": "yoga",
+      "family": "Yoga",
+      "instructors": [
+        "Rayhan"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "printed on the graphic as a time range"
+    },
+    {
+      "weekday": 6,
+      "start_time": "09:40",
+      "class_name": "Zumba",
+      "programme": "Zumba",
+      "category": "dance",
+      "family": "Zumba",
+      "instructors": [
+        "Iza"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "printed on the graphic as a time range"
+    },
+    {
+      "weekday": 1,
+      "start_time": "19:00",
+      "class_name": "Bodycombat",
+      "programme": "LesMills",
+      "category": "martial",
+      "family": "Bodycombat",
+      "instructors": [
+        "Danny"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "printed on the graphic as a time range"
+    },
+    {
+      "weekday": 2,
+      "start_time": "19:00",
+      "class_name": "Vinyasa Yoga",
+      "programme": null,
+      "category": "yoga",
+      "family": "Yoga",
+      "instructors": [
+        "Yoan"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "printed on the graphic as a time range"
+    },
+    {
+      "weekday": 2,
+      "start_time": "20:10",
+      "class_name": "Muay Thai",
+      "programme": null,
+      "category": "martial",
+      "family": "Martial Arts",
+      "instructors": [
+        "Jason"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "printed on the graphic as a time range"
+    },
+    {
+      "weekday": 3,
+      "start_time": "20:10",
+      "class_name": "K-Pop Dance",
+      "programme": null,
+      "category": "dance",
+      "family": "Dance",
+      "instructors": [
+        "Muthi"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "printed on the graphic as a time range"
+    },
+    {
+      "weekday": 4,
+      "start_time": "20:10",
+      "class_name": "Muay Thai",
+      "programme": null,
+      "category": "martial",
+      "family": "Martial Arts",
+      "instructors": [
+        "Joel"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "printed on the graphic as a time range"
+    },
+    {
+      "weekday": 5,
+      "start_time": "20:10",
+      "class_name": "Yoga",
+      "programme": null,
+      "category": "yoga",
+      "family": "Yoga",
+      "instructors": [
+        "Yoan"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "printed on the graphic as a time range"
+    }
+  ]
+}

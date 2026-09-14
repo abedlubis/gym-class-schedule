@@ -1,0 +1,346 @@
+{
+  "_meta": {
+    "classification": "INTERNAL",
+    "source": "Instagram timetable graphic, transcribed from screenshot",
+    "instagram_handle": "af_sedayucity",
+    "extracted_at": "2026-09-13",
+    "graphic_title": "Sedayu City"
+  },
+  "club": {
+    "slug": "sedayu-city",
+    "name": "AF Sedayu City",
+    "aliases": []
+  },
+  "schedule": {
+    "effective_from": "2026-09-01",
+    "timezone": "Asia/Jakarta",
+    "default_duration_min": 60,
+    "duration_note": "Default 60 min, capped where the next class at the same club starts sooner. See _duration_source per slot.",
+    "slot_count": 23,
+    "complete": true,
+    "instructor_tba_count": 2,
+    "instructor_tba_note": "Studio has not settled who teaches these slots. Real state, not a transcription gap."
+  },
+  "slots": [
+    {
+      "weekday": 5,
+      "start_time": "07:00",
+      "class_name": "Bolly X",
+      "programme": null,
+      "category": "dance",
+      "family": "Dance",
+      "instructors": [
+        "Aleva"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 1,
+      "start_time": "08:00",
+      "class_name": "Fun Step",
+      "programme": null,
+      "category": "cardio",
+      "family": "Cardio",
+      "instructors": [
+        "Dyla"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 2,
+      "start_time": "08:00",
+      "class_name": "Barre Intensity",
+      "programme": null,
+      "category": "dance",
+      "family": "Dance",
+      "instructors": [
+        "Patty"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 3,
+      "start_time": "08:00",
+      "class_name": "Tabata",
+      "programme": null,
+      "category": "cardio",
+      "family": "Cardio",
+      "instructors": [
+        "Reni"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 4,
+      "start_time": "08:00",
+      "class_name": "Bodycombat",
+      "programme": "LesMills",
+      "category": "martial",
+      "family": "Bodycombat",
+      "instructors": [
+        "Andreas"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 5,
+      "start_time": "08:00",
+      "class_name": "Hatha Yoga",
+      "programme": null,
+      "category": "yoga",
+      "family": "Yoga",
+      "instructors": [
+        "Alien"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 1,
+      "start_time": "09:00",
+      "class_name": "Bodypump",
+      "programme": "LesMills",
+      "category": "strength",
+      "family": "Bodypump",
+      "instructors": [
+        "Sylvia"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 2,
+      "start_time": "09:00",
+      "class_name": "Zumba",
+      "programme": "Zumba",
+      "category": "dance",
+      "family": "Zumba",
+      "instructors": [
+        "Lesta"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 3,
+      "start_time": "09:00",
+      "class_name": "Matt Pilates",
+      "programme": null,
+      "category": "pilates",
+      "family": "Pilates",
+      "instructors": [
+        "Sovie"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 4,
+      "start_time": "09:00",
+      "class_name": "Body Language",
+      "programme": null,
+      "category": "dance",
+      "family": "Dance",
+      "instructors": [
+        "Lita"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 5,
+      "start_time": "09:00",
+      "class_name": "Aerobic",
+      "programme": null,
+      "category": "cardio",
+      "family": "Cardio",
+      "instructors": [
+        "Lita"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 6,
+      "start_time": "09:00",
+      "class_name": "Fast Fit",
+      "programme": null,
+      "category": "strength",
+      "family": "Conditioning",
+      "instructors": [],
+      "duration_min": 60,
+      "instructor_status": "tba",
+      "instructor_note": "instructor cell reads 'Coach AF' — a placeholder",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 0,
+      "start_time": "09:00",
+      "class_name": "Fast Fit",
+      "programme": null,
+      "category": "strength",
+      "family": "Conditioning",
+      "instructors": [],
+      "duration_min": 60,
+      "instructor_status": "tba",
+      "instructor_note": "instructor cell reads 'Coach AF' — a placeholder",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 1,
+      "start_time": "18:30",
+      "class_name": "Hip-Hop",
+      "programme": null,
+      "category": "dance",
+      "family": "Dance",
+      "instructors": [
+        "RX Team"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 3,
+      "start_time": "18:30",
+      "class_name": "K-Pop",
+      "programme": null,
+      "category": "dance",
+      "family": "Dance",
+      "instructors": [
+        "RX Team"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 4,
+      "start_time": "18:30",
+      "class_name": "Vinyasa Yoga",
+      "programme": null,
+      "category": "yoga",
+      "family": "Yoga",
+      "instructors": [
+        "Alien"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 2,
+      "start_time": "19:00",
+      "class_name": "Bodypump",
+      "programme": "LesMills",
+      "category": "strength",
+      "family": "Bodypump",
+      "instructors": [
+        "Rea"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 5,
+      "start_time": "19:00",
+      "class_name": "Matt Pilates",
+      "programme": null,
+      "category": "pilates",
+      "family": "Pilates",
+      "instructors": [
+        "Sovie"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 1,
+      "start_time": "19:30",
+      "class_name": "Bodycombat",
+      "programme": "LesMills",
+      "category": "martial",
+      "family": "Bodycombat",
+      "instructors": [
+        "Peter"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 3,
+      "start_time": "19:30",
+      "class_name": "Bodypump",
+      "programme": "LesMills",
+      "category": "strength",
+      "family": "Bodypump",
+      "instructors": [
+        "Rini"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 4,
+      "start_time": "19:30",
+      "class_name": "Fun Step",
+      "programme": null,
+      "category": "cardio",
+      "family": "Cardio",
+      "instructors": [
+        "Jacklien"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 2,
+      "start_time": "20:00",
+      "class_name": "Bodycombat",
+      "programme": "LesMills",
+      "category": "martial",
+      "family": "Bodycombat",
+      "instructors": [
+        "Andreas"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 5,
+      "start_time": "20:00",
+      "class_name": "Bodypump",
+      "programme": "LesMills",
+      "category": "strength",
+      "family": "Bodypump",
+      "instructors": [
+        "Rea"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    }
+  ]
+}

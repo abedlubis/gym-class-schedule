@@ -1,0 +1,1136 @@
+{
+  "_meta": {
+    "classification": "INTERNAL",
+    "derived_from": "57 transcribed club timetables",
+    "template_count": 128,
+    "slot_count": 1040,
+    "colour_note": "Distinct hues per category — brand tints would make badges indistinguishable at a glance. Admin-editable."
+  },
+  "categories": [
+    {
+      "slug": "cardio",
+      "label": "Cardio",
+      "color_hex": "#E8883A"
+    },
+    {
+      "slug": "cycling",
+      "label": "Cycling",
+      "color_hex": "#8A5CF0"
+    },
+    {
+      "slug": "dance",
+      "label": "Dance",
+      "color_hex": "#E0519A"
+    },
+    {
+      "slug": "kids",
+      "label": "Kids",
+      "color_hex": "#F2B705"
+    },
+    {
+      "slug": "martial",
+      "label": "Martial",
+      "color_hex": "#D94F4F"
+    },
+    {
+      "slug": "mobility",
+      "label": "Mobility",
+      "color_hex": "#14A3B8"
+    },
+    {
+      "slug": "pilates",
+      "label": "Pilates",
+      "color_hex": "#7C6BD8"
+    },
+    {
+      "slug": "strength",
+      "label": "Strength",
+      "color_hex": "#2F6FD0"
+    },
+    {
+      "slug": "yoga",
+      "label": "Yoga",
+      "color_hex": "#22A06B"
+    }
+  ],
+  "families": [
+    {
+      "name": "Dance",
+      "name_count": 36
+    },
+    {
+      "name": "Conditioning",
+      "name_count": 30
+    },
+    {
+      "name": "Cardio",
+      "name_count": 21
+    },
+    {
+      "name": "Yoga",
+      "name_count": 16
+    },
+    {
+      "name": "Martial Arts",
+      "name_count": 7
+    },
+    {
+      "name": "Pilates",
+      "name_count": 6
+    },
+    {
+      "name": "Zumba",
+      "name_count": 3
+    },
+    {
+      "name": "Kids",
+      "name_count": 3
+    },
+    {
+      "name": "Cycling",
+      "name_count": 2
+    },
+    {
+      "name": "Bodycombat",
+      "name_count": 1
+    },
+    {
+      "name": "Bodypump",
+      "name_count": 1
+    },
+    {
+      "name": "Mobility",
+      "name_count": 1
+    },
+    {
+      "name": "RPM",
+      "name_count": 1
+    }
+  ],
+  "class_templates": [
+    {
+      "name": "Bodycombat",
+      "category": "martial",
+      "programme": "LesMills",
+      "family": "Bodycombat",
+      "default_duration_min": 60,
+      "occurrences": 121
+    },
+    {
+      "name": "Bodypump",
+      "category": "strength",
+      "programme": "LesMills",
+      "family": "Bodypump",
+      "default_duration_min": 60,
+      "occurrences": 103
+    },
+    {
+      "name": "Zumba",
+      "category": "dance",
+      "programme": "Zumba",
+      "family": "Zumba",
+      "default_duration_min": 60,
+      "occurrences": 103
+    },
+    {
+      "name": "Yoga",
+      "category": "yoga",
+      "programme": null,
+      "family": "Yoga",
+      "default_duration_min": 60,
+      "occurrences": 49
+    },
+    {
+      "name": "Pilates",
+      "category": "pilates",
+      "programme": null,
+      "family": "Pilates",
+      "default_duration_min": 60,
+      "occurrences": 45
+    },
+    {
+      "name": "Muay Thai",
+      "category": "martial",
+      "programme": null,
+      "family": "Martial Arts",
+      "default_duration_min": 60,
+      "occurrences": 44
+    },
+    {
+      "name": "Hatha Yoga",
+      "category": "yoga",
+      "programme": null,
+      "family": "Yoga",
+      "default_duration_min": 60,
+      "occurrences": 42
+    },
+    {
+      "name": "Pound",
+      "category": "cardio",
+      "programme": "POUND",
+      "family": "Cardio",
+      "default_duration_min": 60,
+      "occurrences": 34
+    },
+    {
+      "name": "Matt Pilates",
+      "category": "pilates",
+      "programme": null,
+      "family": "Pilates",
+      "default_duration_min": 60,
+      "occurrences": 31
+    },
+    {
+      "name": "Cardio Dance",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 26
+    },
+    {
+      "name": "Fun Step",
+      "category": "cardio",
+      "programme": null,
+      "family": "Cardio",
+      "default_duration_min": 60,
+      "occurrences": 23
+    },
+    {
+      "name": "Basic Yoga",
+      "category": "yoga",
+      "programme": null,
+      "family": "Yoga",
+      "default_duration_min": 60,
+      "occurrences": 20
+    },
+    {
+      "name": "HIIT",
+      "category": "cardio",
+      "programme": null,
+      "family": "Cardio",
+      "default_duration_min": 60,
+      "occurrences": 20
+    },
+    {
+      "name": "K-Pop",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 20
+    },
+    {
+      "name": "Vinyasa Yoga",
+      "category": "yoga",
+      "programme": null,
+      "family": "Yoga",
+      "default_duration_min": 60,
+      "occurrences": 19
+    },
+    {
+      "name": "Belly Dance",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 17
+    },
+    {
+      "name": "Circuit Training",
+      "category": "strength",
+      "programme": null,
+      "family": "Conditioning",
+      "default_duration_min": 60,
+      "occurrences": 15
+    },
+    {
+      "name": "Aerobic",
+      "category": "cardio",
+      "programme": null,
+      "family": "Cardio",
+      "default_duration_min": 60,
+      "occurrences": 14
+    },
+    {
+      "name": "Bootcamp",
+      "category": "strength",
+      "programme": null,
+      "family": "Conditioning",
+      "default_duration_min": 60,
+      "occurrences": 12
+    },
+    {
+      "name": "TRX",
+      "category": "strength",
+      "programme": null,
+      "family": "Conditioning",
+      "default_duration_min": 60,
+      "occurrences": 11
+    },
+    {
+      "name": "Bodyjam",
+      "category": "dance",
+      "programme": "LesMills",
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 10
+    },
+    {
+      "name": "Strong Nation",
+      "category": "cardio",
+      "programme": "STRONG Nation",
+      "family": "Cardio",
+      "default_duration_min": 60,
+      "occurrences": 10
+    },
+    {
+      "name": "Salsation",
+      "category": "dance",
+      "programme": "Salsation",
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 9
+    },
+    {
+      "name": "Basic Step",
+      "category": "cardio",
+      "programme": null,
+      "family": "Cardio",
+      "default_duration_min": 60,
+      "occurrences": 8
+    },
+    {
+      "name": "Booty Class",
+      "category": "strength",
+      "programme": null,
+      "family": "Conditioning",
+      "default_duration_min": 60,
+      "occurrences": 8
+    },
+    {
+      "name": "AF Hybrid",
+      "category": "strength",
+      "programme": null,
+      "family": "Conditioning",
+      "default_duration_min": 60,
+      "occurrences": 7
+    },
+    {
+      "name": "Boxing",
+      "category": "martial",
+      "programme": null,
+      "family": "Martial Arts",
+      "default_duration_min": 60,
+      "occurrences": 7
+    },
+    {
+      "name": "Modern Dance",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 7
+    },
+    {
+      "name": "Strength Training",
+      "category": "strength",
+      "programme": null,
+      "family": "Conditioning",
+      "default_duration_min": 60,
+      "occurrences": 7
+    },
+    {
+      "name": "Core Exercise",
+      "category": "strength",
+      "programme": null,
+      "family": "Conditioning",
+      "default_duration_min": 60,
+      "occurrences": 6
+    },
+    {
+      "name": "Flow Yoga",
+      "category": "yoga",
+      "programme": null,
+      "family": "Yoga",
+      "default_duration_min": 60,
+      "occurrences": 6
+    },
+    {
+      "name": "Freestyle Dance",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 6
+    },
+    {
+      "name": "Body Shape",
+      "category": "strength",
+      "programme": null,
+      "family": "Conditioning",
+      "default_duration_min": 60,
+      "occurrences": 5
+    },
+    {
+      "name": "Bodybalance",
+      "category": "yoga",
+      "programme": "LesMills",
+      "family": "Yoga",
+      "default_duration_min": 60,
+      "occurrences": 5
+    },
+    {
+      "name": "Fitball Core",
+      "category": "strength",
+      "programme": null,
+      "family": "Conditioning",
+      "default_duration_min": 60,
+      "occurrences": 5
+    },
+    {
+      "name": "Gentle Yoga",
+      "category": "yoga",
+      "programme": null,
+      "family": "Yoga",
+      "default_duration_min": 60,
+      "occurrences": 5
+    },
+    {
+      "name": "Inside Flow",
+      "category": "yoga",
+      "programme": null,
+      "family": "Yoga",
+      "default_duration_min": 60,
+      "occurrences": 5
+    },
+    {
+      "name": "LesMills Dance",
+      "category": "dance",
+      "programme": "LesMills",
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 5
+    },
+    {
+      "name": "Tabata",
+      "category": "cardio",
+      "programme": null,
+      "family": "Cardio",
+      "default_duration_min": 60,
+      "occurrences": 5
+    },
+    {
+      "name": "Body Language",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 4
+    },
+    {
+      "name": "Booty Shapes",
+      "category": "strength",
+      "programme": null,
+      "family": "Conditioning",
+      "default_duration_min": 60,
+      "occurrences": 4
+    },
+    {
+      "name": "Kick Boxing",
+      "category": "martial",
+      "programme": null,
+      "family": "Martial Arts",
+      "default_duration_min": 60,
+      "occurrences": 4
+    },
+    {
+      "name": "Power Yoga",
+      "category": "yoga",
+      "programme": null,
+      "family": "Yoga",
+      "default_duration_min": 60,
+      "occurrences": 4
+    },
+    {
+      "name": "RPM",
+      "category": "cycling",
+      "programme": "LesMills",
+      "family": "RPM",
+      "default_duration_min": 60,
+      "occurrences": 4
+    },
+    {
+      "name": "AF Groove",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 3
+    },
+    {
+      "name": "Aero Boxing",
+      "category": "martial",
+      "programme": null,
+      "family": "Martial Arts",
+      "default_duration_min": 60,
+      "occurrences": 3
+    },
+    {
+      "name": "Barre Intensity",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 3
+    },
+    {
+      "name": "Belly Fit Dance",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 3
+    },
+    {
+      "name": "Bolly X",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 3
+    },
+    {
+      "name": "Cardio Boxing",
+      "category": "martial",
+      "programme": null,
+      "family": "Martial Arts",
+      "default_duration_min": 60,
+      "occurrences": 3
+    },
+    {
+      "name": "Core Motion",
+      "category": "strength",
+      "programme": null,
+      "family": "Conditioning",
+      "default_duration_min": 60,
+      "occurrences": 3
+    },
+    {
+      "name": "Funbike",
+      "category": "cycling",
+      "programme": null,
+      "family": "Cycling",
+      "default_duration_min": 60,
+      "occurrences": 3
+    },
+    {
+      "name": "Hip-Hop",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 3
+    },
+    {
+      "name": "Let's Dance",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 3
+    },
+    {
+      "name": "CIRCL Mobility",
+      "category": "mobility",
+      "programme": "CIRCL Mobility",
+      "family": "Mobility",
+      "default_duration_min": 60,
+      "occurrences": 2
+    },
+    {
+      "name": "Cardio Boost",
+      "category": "cardio",
+      "programme": null,
+      "family": "Cardio",
+      "default_duration_min": 60,
+      "occurrences": 2
+    },
+    {
+      "name": "Choreo Dance",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 2
+    },
+    {
+      "name": "Core",
+      "category": "strength",
+      "programme": null,
+      "family": "Conditioning",
+      "default_duration_min": 60,
+      "occurrences": 2
+    },
+    {
+      "name": "Core Class",
+      "category": "strength",
+      "programme": null,
+      "family": "Conditioning",
+      "default_duration_min": 60,
+      "occurrences": 2
+    },
+    {
+      "name": "Fast Fit",
+      "category": "strength",
+      "programme": null,
+      "family": "Conditioning",
+      "default_duration_min": 60,
+      "occurrences": 2
+    },
+    {
+      "name": "Fatburn Extreme",
+      "category": "cardio",
+      "programme": "Fatburn Extreme",
+      "family": "Cardio",
+      "default_duration_min": 60,
+      "occurrences": 2
+    },
+    {
+      "name": "Gentle Flow",
+      "category": "yoga",
+      "programme": null,
+      "family": "Yoga",
+      "default_duration_min": 60,
+      "occurrences": 2
+    },
+    {
+      "name": "K-Pop Cardio",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 2
+    },
+    {
+      "name": "K-Pop Dance",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 2
+    },
+    {
+      "name": "Line Dance",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 2
+    },
+    {
+      "name": "Martial Arts",
+      "category": "martial",
+      "programme": null,
+      "family": "Martial Arts",
+      "default_duration_min": 60,
+      "occurrences": 2
+    },
+    {
+      "name": "Metcon",
+      "category": "strength",
+      "programme": null,
+      "family": "Conditioning",
+      "default_duration_min": 60,
+      "occurrences": 2
+    },
+    {
+      "name": "Piloxing",
+      "category": "cardio",
+      "programme": "Piloxing",
+      "family": "Cardio",
+      "default_duration_min": 60,
+      "occurrences": 2
+    },
+    {
+      "name": "Poundfit",
+      "category": "cardio",
+      "programme": "POUND",
+      "family": "Cardio",
+      "default_duration_min": 60,
+      "occurrences": 2
+    },
+    {
+      "name": "Power Core",
+      "category": "strength",
+      "programme": null,
+      "family": "Conditioning",
+      "default_duration_min": 60,
+      "occurrences": 2
+    },
+    {
+      "name": "Strength Conditioning",
+      "category": "strength",
+      "programme": null,
+      "family": "Conditioning",
+      "default_duration_min": 60,
+      "occurrences": 2
+    },
+    {
+      "name": "Yin Yoga",
+      "category": "yoga",
+      "programme": null,
+      "family": "Yoga",
+      "default_duration_min": 60,
+      "occurrences": 2
+    },
+    {
+      "name": "Yogalates",
+      "category": "pilates",
+      "programme": null,
+      "family": "Pilates",
+      "default_duration_min": 60,
+      "occurrences": 2
+    },
+    {
+      "name": "Zumba Step",
+      "category": "dance",
+      "programme": "Zumba",
+      "family": "Zumba",
+      "default_duration_min": 60,
+      "occurrences": 2
+    },
+    {
+      "name": "Zumba Toning",
+      "category": "dance",
+      "programme": "Zumba",
+      "family": "Zumba",
+      "default_duration_min": 60,
+      "occurrences": 2
+    },
+    {
+      "name": "AF Hybrid Foundation",
+      "category": "strength",
+      "programme": null,
+      "family": "Conditioning",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Aerobic Body Language",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Aeromix",
+      "category": "cardio",
+      "programme": null,
+      "family": "Cardio",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Ashtanga Yoga",
+      "category": "yoga",
+      "programme": null,
+      "family": "Yoga",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Barre Dance",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Body Shape Dumble",
+      "category": "strength",
+      "programme": null,
+      "family": "Conditioning",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Cardio Step",
+      "category": "cardio",
+      "programme": null,
+      "family": "Cardio",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Cardiomax",
+      "category": "cardio",
+      "programme": null,
+      "family": "Cardio",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Choreography",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Circuit Endurance",
+      "category": "strength",
+      "programme": null,
+      "family": "Conditioning",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Dance Art",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Dance Art Cardio",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Dance Choreography",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Dance Class",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Dance Fitness",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Dance Fun Kids",
+      "category": "kids",
+      "programme": null,
+      "family": "Kids",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Dance Step",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Dancefro",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Dancehall",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Dinamic Pilates",
+      "category": "pilates",
+      "programme": null,
+      "family": "Pilates",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Fit Dance",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Fit Step",
+      "category": "cardio",
+      "programme": null,
+      "family": "Cardio",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Frym Yoga",
+      "category": "yoga",
+      "programme": null,
+      "family": "Yoga",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Functional Training",
+      "category": "strength",
+      "programme": null,
+      "family": "Conditioning",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Glutes",
+      "category": "strength",
+      "programme": null,
+      "family": "Conditioning",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Gymnastic Kids",
+      "category": "kids",
+      "programme": null,
+      "family": "Kids",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "HIIT X Training",
+      "category": "cardio",
+      "programme": null,
+      "family": "Cardio",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Hybrid",
+      "category": "strength",
+      "programme": null,
+      "family": "Conditioning",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "K-Pop Vibe Dance",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Ladies Style",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Lower Body Class",
+      "category": "strength",
+      "programme": null,
+      "family": "Conditioning",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Matt Pilates in the Dark",
+      "category": "pilates",
+      "programme": null,
+      "family": "Pilates",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Mind and Body",
+      "category": "yoga",
+      "programme": null,
+      "family": "Yoga",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Mix Dance",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Muscular Endurance",
+      "category": "strength",
+      "programme": null,
+      "family": "Conditioning",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "PT Class",
+      "category": "strength",
+      "programme": null,
+      "family": "Conditioning",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Pilates Ball Exercise",
+      "category": "pilates",
+      "programme": null,
+      "family": "Pilates",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Powerfit",
+      "category": "strength",
+      "programme": null,
+      "family": "Conditioning",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Real K-Pop Dance",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Recoil",
+      "category": "strength",
+      "programme": null,
+      "family": "Conditioning",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Rush",
+      "category": "cardio",
+      "programme": null,
+      "family": "Cardio",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Spinning",
+      "category": "cycling",
+      "programme": null,
+      "family": "Cycling",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Sport Kids",
+      "category": "kids",
+      "programme": null,
+      "family": "Kids",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Sport Running Drill",
+      "category": "cardio",
+      "programme": null,
+      "family": "Cardio",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Step Aerobic",
+      "category": "cardio",
+      "programme": null,
+      "family": "Cardio",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Steprobic",
+      "category": "cardio",
+      "programme": null,
+      "family": "Cardio",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Strength Power",
+      "category": "strength",
+      "programme": null,
+      "family": "Conditioning",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Sweat & Sweet",
+      "category": "cardio",
+      "programme": null,
+      "family": "Cardio",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Thai Boxing",
+      "category": "martial",
+      "programme": null,
+      "family": "Martial Arts",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Upper Burn",
+      "category": "strength",
+      "programme": null,
+      "family": "Conditioning",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Urban Dance",
+      "category": "dance",
+      "programme": null,
+      "family": "Dance",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Yoga Core",
+      "category": "yoga",
+      "programme": null,
+      "family": "Yoga",
+      "default_duration_min": 60,
+      "occurrences": 1
+    },
+    {
+      "name": "Yoga Stretch",
+      "category": "yoga",
+      "programme": null,
+      "family": "Yoga",
+      "default_duration_min": 60,
+      "occurrences": 1
+    }
+  ]
+}

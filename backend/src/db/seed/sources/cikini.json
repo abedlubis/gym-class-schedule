@@ -1,0 +1,207 @@
+{
+  "_meta": {
+    "classification": "INTERNAL",
+    "source": "Instagram timetable graphic, transcribed from screenshot",
+    "instagram_handle": "anytimefitnesscikini",
+    "post_date": "2026-09-06",
+    "extracted_at": "2026-09-12",
+    "graphic_title": "Cikini"
+  },
+  "club": {
+    "slug": "cikini",
+    "name": "AF Cikini",
+    "aliases": []
+  },
+  "schedule": {
+    "effective_from": null,
+    "timezone": "Asia/Jakarta",
+    "default_duration_min": 60,
+    "duration_note": "Durations are not printed on AF timetable graphics. Default 60 min, automatically capped where the next class at the same club starts sooner. See _duration_source per slot.",
+    "slot_count": 13,
+    "complete": true,
+    "known_gap": {
+      "type": "redacted_in_source",
+      "where": "one time row between 10:00 and 16:00",
+      "detail": "The published graphic has a solid black bar covering an entire time row. This is a redaction in the club's own artwork, not a capture error. The 13 transcribed slots are complete for every visible row.",
+      "resolution": "Unknown number of classes hidden. Either an older Cikini post shows the row, or ask the club directly — their contact number is printed on the graphic (not stored here).",
+      "user_facing": "Cikini's published schedule hides one time slot."
+    },
+    "transcription_confidence": "high for all visible rows"
+  },
+  "slots": [
+    {
+      "weekday": 6,
+      "start_time": "10:00",
+      "class_name": "Vinyasa Yoga",
+      "programme": null,
+      "category": "yoga",
+      "instructors": [
+        "Lila"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 6,
+      "start_time": "16:00",
+      "class_name": "Zumba",
+      "programme": "Zumba",
+      "category": "dance",
+      "instructors": [
+        "Rudi"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 1,
+      "start_time": "18:15",
+      "class_name": "Bodycombat",
+      "programme": "LesMills",
+      "category": "martial",
+      "instructors": [
+        "Charles"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 2,
+      "start_time": "18:15",
+      "class_name": "Pound",
+      "programme": "POUND",
+      "category": "cardio",
+      "instructors": [
+        "Isma"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 4,
+      "start_time": "18:15",
+      "class_name": "AF Groove",
+      "programme": null,
+      "category": "dance",
+      "instructors": [
+        "Ito"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed",
+      "family": "Dance"
+    },
+    {
+      "weekday": 5,
+      "start_time": "18:15",
+      "class_name": "Bodyjam",
+      "programme": "LesMills",
+      "category": "dance",
+      "instructors": [
+        "Fira"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed",
+      "family": "Dance"
+    },
+    {
+      "weekday": 1,
+      "start_time": "19:15",
+      "class_name": "Urban Dance",
+      "programme": null,
+      "category": "dance",
+      "instructors": [
+        "Ayu"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed",
+      "family": "Dance"
+    },
+    {
+      "weekday": 2,
+      "start_time": "19:15",
+      "class_name": "Bodycombat",
+      "programme": "LesMills",
+      "category": "martial",
+      "instructors": [
+        "Robby"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 3,
+      "start_time": "19:15",
+      "class_name": "K-Pop",
+      "programme": null,
+      "category": "dance",
+      "instructors": [
+        "RX Team"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 4,
+      "start_time": "19:15",
+      "class_name": "Zumba",
+      "programme": "Zumba",
+      "category": "dance",
+      "instructors": [
+        "Yumi"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 5,
+      "start_time": "19:30",
+      "class_name": "Bodycombat",
+      "programme": "LesMills",
+      "category": "martial",
+      "instructors": [
+        "Dadi"
+      ],
+      "duration_min": 60,
+      "_note": "printed in the 19:15 row with an in-cell time override of 19:30",
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 3,
+      "start_time": "20:15",
+      "class_name": "Pilates",
+      "programme": null,
+      "category": "pilates",
+      "instructors": [
+        "Metti"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 4,
+      "start_time": "20:15",
+      "class_name": "Bodybalance",
+      "programme": "LesMills",
+      "category": "yoga",
+      "instructors": [
+        "Resty"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed",
+      "family": "Yoga"
+    }
+  ]
+}

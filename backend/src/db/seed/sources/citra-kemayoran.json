@@ -1,0 +1,366 @@
+{
+  "_meta": {
+    "classification": "INTERNAL",
+    "extracted_by": "manual transcription from studio timetable graphic",
+    "extracted_at": "2026-09-12",
+    "confidence": "high — all cells legible",
+    "review_required": true
+  },
+  "club": {
+    "af_club_code": null,
+    "slug": "citra-kemayoran",
+    "name": "AF Citra Kemayoran",
+    "aliases": [
+      "Citra Xperience",
+      "Citra Towers Kemayoran",
+      "AF Citra Xperience"
+    ],
+    "city": "Jakarta",
+    "region": "Jakarta Pusat",
+    "timezone": "Asia/Jakarta",
+    "instagram_handle": "anytimefitness_citrakemayoran",
+    "status": "open",
+    "_review": [
+      "af_club_code missing — needs the anytimefitness.id/gyms/ URL",
+      "Timetable graphic labels this club 'Citra Xperience'; Linktree calls it 'Citra Kemayoran'. Same club, two official names."
+    ]
+  },
+  "schedule": {
+    "effective_from": "2026-09-01",
+    "timezone": "Asia/Jakarta",
+    "schedule_source_url": "https://www.instagram.com/p/Dcs6Bq2FGga/",
+    "schedule_captured_at": "2026-09-12",
+    "source_disclaimer": "Schedule, classes and instructors subject to change without prior notice.",
+    "slot_count": 19,
+    "default_duration_min": 60,
+    "duration_note": "Durations are not printed on AF timetable graphics. Default 60 min, automatically capped where the next class at the same club starts sooner. See _duration_source per slot."
+  },
+  "slots": [
+    {
+      "weekday": 3,
+      "start_time": "07:30",
+      "class_name": "Bodypump",
+      "programme": "LesMills",
+      "category": "strength",
+      "instructors": [
+        "Maria"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 5,
+      "start_time": "07:30",
+      "class_name": "Vinyasa Yoga",
+      "programme": null,
+      "category": "yoga",
+      "instructors": [
+        "Clara"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 6,
+      "start_time": "07:30",
+      "class_name": "Basic Yoga",
+      "programme": null,
+      "category": "yoga",
+      "instructors": [
+        "Ribka"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 1,
+      "start_time": "09:00",
+      "class_name": "Bodycombat",
+      "programme": "LesMills",
+      "category": "martial",
+      "instructors": [
+        "Jovian"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 2,
+      "start_time": "09:00",
+      "class_name": "CIRCL Mobility",
+      "programme": "CIRCL Mobility",
+      "category": "mobility",
+      "instructors": [
+        "Agnes"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed",
+      "family": "Mobility"
+    },
+    {
+      "weekday": 3,
+      "start_time": "09:00",
+      "class_name": "Cardio Boxing",
+      "programme": null,
+      "category": "martial",
+      "instructors": [
+        "Icha",
+        "Teguh"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed",
+      "family": "Martial Arts"
+    },
+    {
+      "weekday": 4,
+      "start_time": "09:00",
+      "class_name": "Pilates",
+      "programme": null,
+      "category": "pilates",
+      "instructors": [
+        "Indy"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 6,
+      "start_time": "09:00",
+      "class_name": "Ladies Style",
+      "programme": null,
+      "category": "dance",
+      "instructors": [
+        "Agus"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed",
+      "family": "Dance"
+    },
+    {
+      "weekday": 5,
+      "start_time": "18:00",
+      "class_name": "Bodypump",
+      "programme": "LesMills",
+      "category": "strength",
+      "instructors": [
+        "Nat"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 1,
+      "start_time": "19:00",
+      "class_name": "Aerobic",
+      "programme": null,
+      "category": "cardio",
+      "instructors": [
+        "Lita"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 2,
+      "start_time": "19:00",
+      "class_name": "Zumba",
+      "programme": "Zumba",
+      "category": "dance",
+      "instructors": [
+        "Yensi"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 3,
+      "start_time": "19:00",
+      "class_name": "Body Language",
+      "programme": null,
+      "category": "dance",
+      "instructors": [
+        "Lita"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed",
+      "family": "Dance"
+    },
+    {
+      "weekday": 4,
+      "start_time": "19:00",
+      "class_name": "Freestyle Dance",
+      "programme": null,
+      "category": "dance",
+      "instructors": [
+        "Agus"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed",
+      "family": "Dance"
+    },
+    {
+      "weekday": 5,
+      "start_time": "19:00",
+      "class_name": "Zumba",
+      "programme": "Zumba",
+      "category": "dance",
+      "instructors": [
+        "Mugi"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 1,
+      "start_time": "20:00",
+      "class_name": "Pilates",
+      "programme": null,
+      "category": "pilates",
+      "instructors": [
+        "Indy"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 2,
+      "start_time": "20:00",
+      "class_name": "Let's Dance",
+      "programme": null,
+      "category": "dance",
+      "instructors": [
+        "Agam"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed",
+      "family": "Dance"
+    },
+    {
+      "weekday": 3,
+      "start_time": "20:00",
+      "class_name": "Pound",
+      "programme": "POUND",
+      "category": "cardio",
+      "instructors": [
+        "Nisa"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 5,
+      "start_time": "20:00",
+      "class_name": "Yoga",
+      "programme": null,
+      "category": "yoga",
+      "instructors": [
+        "Lila"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed",
+      "family": "Yoga"
+    },
+    {
+      "weekday": 4,
+      "start_time": "20:15",
+      "class_name": "Bodycombat",
+      "programme": "LesMills",
+      "category": "martial",
+      "instructors": [
+        "Lie"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    }
+  ],
+  "derived": {
+    "instructors": [
+      "Agam",
+      "Agnes",
+      "Agus",
+      "Clara",
+      "Icha",
+      "Indy",
+      "Jovian",
+      "Lie",
+      "Lila",
+      "Lita",
+      "Maria",
+      "Mugi",
+      "Nat",
+      "Nisa",
+      "Ribka",
+      "Teguh",
+      "Yensi"
+    ],
+    "class_names": [
+      "Aerobic",
+      "Basic Yoga",
+      "Body Language",
+      "Bodycombat",
+      "Bodypump",
+      "CIRCL Mobility",
+      "Cardio Boxing",
+      "Freestyle Dance",
+      "Ladies Style",
+      "Let's Dance",
+      "Pilates",
+      "Pound",
+      "Vinyasa Yoga",
+      "Yoga",
+      "Zumba"
+    ],
+    "categories": [
+      "cardio",
+      "dance",
+      "martial",
+      "mobility",
+      "pilates",
+      "strength",
+      "yoga"
+    ],
+    "programmes": [
+      "CIRCL Mobility",
+      "LesMills",
+      "POUND",
+      "Zumba"
+    ],
+    "weekdays_with_classes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "note": "weekday uses 0 = Sunday … 6 = Saturday, matching the schema in §3.2. Sunday has no classes at this club."
+  },
+  "_review_queue": [
+    "DURATION: not printed on the graphic. 60 min applied to every slot as a stated default, not as observed data. Revisit if any class is known to differ.",
+    "CATEGORY 'mobility' is new — needs adding to the categories table.",
+    "INSTRUCTOR 'Icha' was printed as 'Coach Icha'. Title prefix stripped. Confirm the stored name should be 'Icha'.",
+    "INSTRUCTOR identity: nicknames are treated as globally unique across all clubs. An instructor teaching at several branches is one row in `instructors` plus several rows in `instructor_clubs`.",
+    "CO-TAUGHT: Wednesday 09:00 Cardio Boxing has two instructors. Confirms slot_instructors must stay many-to-many.",
+    "'Ladies Style' and 'Body Language' categories are my best guess from the class name and icon. Confirm with someone who has attended.",
+    "PROGRAMME values include Zumba, POUND and CIRCL Mobility alongside LesMills — programme must be a text/FK column, not a lesMillsOnly boolean."
+  ]
+}

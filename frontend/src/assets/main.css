@@ -1,0 +1,79 @@
+@import 'tailwindcss';
+
+/**
+ * Light mode only. No dark variant, no system-preference switch — that halves
+ * the token surface and removes every "what does this look like inverted"
+ * question from the build.
+ *
+ * Palette is Anytime Fitness Indonesia's own. The key move: #221551 is the text
+ * colour rather than a background. It reads as near-black with a purple cast,
+ * so the brand is present on every screen without a dark theme. Pure #000 is
+ * reserved for the wordmark — black on off-white is harsher than the references.
+ */
+@theme {
+  --font-sans: 'Archivo', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Archivo Narrow', 'Archivo', sans-serif;
+
+  --color-bg: #eff0f0;
+  --color-surface: #ffffff;
+  --color-line: #cccccc;
+  --color-ink: #221551;
+  --color-ink-muted: #35393d;
+  --color-primary: #6e38d5;
+  --color-accent: #804c9e;
+  --color-wordmark: #000000;
+
+  --radius-card: 14px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+/* Times are the spine of a timetable — they must align down the column, so
+   figures are tabular everywhere a time or a count is rendered. */
+.tnum {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: 'tnum' 1;
+}
+
+:where(button, a, input, select, [tabindex]):focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Hide the scrollbar on the horizontal day strip without disabling scrolling. */
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,95 @@
+{
+  "_meta": {
+    "classification": "INTERNAL",
+    "source": "Instagram timetable graphic, transcribed from screenshot",
+    "instagram_handle": "af_menteng",
+    "extracted_at": "2026-09-13",
+    "graphic_title": "De Ritz Menteng"
+  },
+  "club": {
+    "slug": "de-ritz-menteng",
+    "name": "AF De Ritz Menteng",
+    "aliases": []
+  },
+  "schedule": {
+    "effective_from": "2026-09-01",
+    "timezone": "Asia/Jakarta",
+    "default_duration_min": 60,
+    "duration_note": "Default 60 min, capped where the next class at the same club starts sooner. See _duration_source per slot.",
+    "slot_count": 5,
+    "complete": true,
+    "note": "Graphic has Monday, Wednesday, Thursday and Friday columns only — no Tuesday and no weekend."
+  },
+  "slots": [
+    {
+      "weekday": 3,
+      "start_time": "17:30",
+      "class_name": "Belly Dance",
+      "programme": null,
+      "category": "dance",
+      "family": "Dance",
+      "instructors": [
+        "Nana"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 5,
+      "start_time": "18:30",
+      "class_name": "Zumba",
+      "programme": "Zumba",
+      "category": "dance",
+      "family": "Zumba",
+      "instructors": [
+        "Ella"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 1,
+      "start_time": "19:00",
+      "class_name": "Basic Yoga",
+      "programme": null,
+      "category": "yoga",
+      "family": "Yoga",
+      "instructors": [
+        "Minto"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 3,
+      "start_time": "19:00",
+      "class_name": "Pound",
+      "programme": "POUND",
+      "category": "cardio",
+      "family": "Cardio",
+      "instructors": [
+        "Mega"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    },
+    {
+      "weekday": 4,
+      "start_time": "19:00",
+      "class_name": "Zumba",
+      "programme": "Zumba",
+      "category": "dance",
+      "family": "Zumba",
+      "instructors": [
+        "Yensi"
+      ],
+      "duration_min": 60,
+      "instructor_status": "confirmed",
+      "_duration_source": "assumed 60 min default"
+    }
+  ]
+}

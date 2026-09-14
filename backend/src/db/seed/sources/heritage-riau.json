@@ -1,0 +1,360 @@
+{
+  "_meta": {
+    "classification": "INTERNAL",
+    "source": "Instagram timetable graphic, transcribed from screenshot",
+    "instagram_handle": "anytimefitnessheritageriau",
+    "post_date": "2026-08-31",
+    "extracted_at": "2026-09-12",
+    "graphic_title": "Heritage Lifestyle Hub"
+  },
+  "club": {
+    "slug": "heritage-riau",
+    "name": "AF Heritage Riau",
+    "aliases": [
+      "Heritage Lifestyle Hub"
+    ]
+  },
+  "schedule": {
+    "effective_from": "2026-09-01",
+    "timezone": "Asia/Jakarta",
+    "default_duration_min": 60,
+    "duration_note": "Durations are not printed on AF timetable graphics. Default 60 min, automatically capped where the next class at the same club starts sooner. See _duration_source per slot.",
+    "slot_count": 25,
+    "complete": true
+  },
+  "slots": [
+    {
+      "weekday": 1,
+      "start_time": "07:00",
+      "class_name": "Bodypump",
+      "programme": "LesMills",
+      "category": "strength",
+      "instructors": [
+        "Vincent"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 2,
+      "start_time": "07:00",
+      "class_name": "Bodycombat",
+      "programme": "LesMills",
+      "category": "martial",
+      "instructors": [
+        "Iwan"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 3,
+      "start_time": "07:00",
+      "class_name": "Zumba",
+      "programme": "Zumba",
+      "category": "dance",
+      "instructors": [
+        "Lina"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 5,
+      "start_time": "07:00",
+      "class_name": "Matt Pilates",
+      "programme": null,
+      "category": "pilates",
+      "instructors": [
+        "Citra"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 6,
+      "start_time": "07:00",
+      "class_name": "Strong Nation",
+      "programme": "STRONG Nation",
+      "category": "cardio",
+      "instructors": [
+        "Opick"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed",
+      "family": "Cardio"
+    },
+    {
+      "weekday": 4,
+      "start_time": "07:15",
+      "class_name": "Hatha Yoga",
+      "programme": null,
+      "category": "yoga",
+      "instructors": [
+        "Erta"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 1,
+      "start_time": "08:10",
+      "class_name": "Zumba Step",
+      "programme": "Zumba",
+      "category": "dance",
+      "instructors": [
+        "Intan"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed",
+      "family": "Zumba"
+    },
+    {
+      "weekday": 2,
+      "start_time": "08:10",
+      "class_name": "Inside Flow",
+      "programme": null,
+      "category": "yoga",
+      "instructors": [
+        "Mieke"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed",
+      "family": "Yoga"
+    },
+    {
+      "weekday": 3,
+      "start_time": "08:10",
+      "class_name": "Pound",
+      "programme": "POUND",
+      "category": "cardio",
+      "instructors": [
+        "Ully"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 5,
+      "start_time": "08:10",
+      "class_name": "Fatburn Extreme",
+      "programme": "Fatburn Extreme",
+      "category": "cardio",
+      "instructors": [
+        "Opick"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed",
+      "family": "Cardio"
+    },
+    {
+      "weekday": 6,
+      "start_time": "08:10",
+      "class_name": "Hatha Yoga",
+      "programme": null,
+      "category": "yoga",
+      "instructors": [
+        "Erta"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 4,
+      "start_time": "08:25",
+      "class_name": "Bodycombat",
+      "programme": "LesMills",
+      "category": "martial",
+      "instructors": [
+        "Iwan"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 0,
+      "start_time": "09:10",
+      "class_name": "Muay Thai",
+      "programme": null,
+      "category": "martial",
+      "instructors": [
+        "Yoga"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed",
+      "family": "Martial Arts"
+    },
+    {
+      "weekday": 2,
+      "start_time": "17:00",
+      "class_name": "K-Pop",
+      "programme": null,
+      "category": "dance",
+      "instructors": [
+        "IL Tsar"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 3,
+      "start_time": "17:00",
+      "class_name": "Hatha Yoga",
+      "programme": null,
+      "category": "yoga",
+      "instructors": [
+        "Erta"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 4,
+      "start_time": "17:00",
+      "class_name": "Belly Dance",
+      "programme": null,
+      "category": "dance",
+      "instructors": [
+        "Nining"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 5,
+      "start_time": "17:00",
+      "class_name": "Zumba Step",
+      "programme": "Zumba",
+      "category": "dance",
+      "instructors": [
+        "Intan"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed",
+      "family": "Zumba"
+    },
+    {
+      "weekday": 1,
+      "start_time": "18:00",
+      "class_name": "Gentle Yoga",
+      "programme": null,
+      "category": "yoga",
+      "instructors": [
+        "Alvin"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed",
+      "family": "Yoga"
+    },
+    {
+      "weekday": 2,
+      "start_time": "18:30",
+      "class_name": "Bodypump",
+      "programme": "LesMills",
+      "category": "strength",
+      "instructors": [
+        "Yoga"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 3,
+      "start_time": "18:30",
+      "class_name": "Bodycombat",
+      "programme": "LesMills",
+      "category": "martial",
+      "instructors": [
+        "Febri"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 4,
+      "start_time": "18:30",
+      "class_name": "Muay Thai",
+      "programme": null,
+      "category": "martial",
+      "instructors": [
+        "Yoga"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed",
+      "family": "Martial Arts"
+    },
+    {
+      "weekday": 5,
+      "start_time": "18:30",
+      "class_name": "Vinyasa Yoga",
+      "programme": null,
+      "category": "yoga",
+      "instructors": [
+        "Nina"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 1,
+      "start_time": "19:00",
+      "class_name": "Strength Training",
+      "programme": null,
+      "category": "strength",
+      "instructors": [
+        "Novita"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 2,
+      "start_time": "19:30",
+      "class_name": "Matt Pilates",
+      "programme": null,
+      "category": "pilates",
+      "instructors": [
+        "Nina"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    },
+    {
+      "weekday": 3,
+      "start_time": "19:30",
+      "class_name": "Zumba",
+      "programme": "Zumba",
+      "category": "dance",
+      "instructors": [
+        "Shinta"
+      ],
+      "duration_min": 60,
+      "_duration_source": "assumed 60 min default",
+      "instructor_status": "confirmed"
+    }
+  ]
+}
