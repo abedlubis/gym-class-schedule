@@ -38,7 +38,16 @@ export function createApp(db: any) {
     try {
       await db.execute('select 1')
       return c.json({ status: 'ok' })
-    } catch {
+    } catch (err) {
+      // Logged (message only, never the connection string) so a degraded
+      // health check leaves a trace in Vercel's runtime logs instead of
+      // failing silently.
+      console.error(
+        JSON.stringify({
+          at: 'health-check',
+          message: err instanceof Error ? err.message : String(err),
+        }),
+      )
       return c.json({ status: 'degraded' }, 503)
     }
   })
