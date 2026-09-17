@@ -52,5 +52,10 @@ export const pt = {
 }
 
 export function installPrimeVue(app: App) {
-  app.use(PrimeVue, { unstyled: true, pt, ripple: false })
+  app.use(PrimeVue, {
+    unstyled: true,
+    pt,
+    ripple: false,
+    license: import.meta.env.VITE_PRIMEUI_LICENSE_KEY,
+  })
 }
